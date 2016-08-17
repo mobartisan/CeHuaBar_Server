@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title><%= title %></title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link href="/stylesheets/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="/stylesheets/font-awesome.min.css" rel="stylesheet">
+    <link href="/stylesheets/common.css" rel="stylesheet">
+    <link href="/stylesheets/biz.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/javascripts/fr.routeApp-2.1.js"></script>
+</head>
+
+<body style="background-color:#fafafa;">
+<header class="header test_header">
+    <span class="colfff font16 span"><%= title %></span>
+    <i class="icoAll icoMenu fr-back"></i>
+    <span class="colfff font12 span2"></span>
+    <span class="headHtmlWap"></span>
+</header>
+
+<div id="wappperAll">
+    <div class="fr-contain" fr-route="0">
+        <div class="hearHtml" style="display:none;">
+        </div>
+        <div class="rep_content">
+            <div class="test_main">
+                <div class="test_main_img">
+                    <img src="/images/test_main@3x.png"/>
+                    <h1>恭喜您!</h1>
+                    <span>本月共答对<strong><%= monthCount %></strong>答题，继续努力哟!</span>
+                </div>
+                <div class="test_data">
+                    <ul>
+                        <li class="accuracy_text">本月正确率<strong><%= accuracy %></strong></li>
+                        <li class="accuracy_img"><span></span></li>
+                        <li class="outrate_text">超过了<strong><%= outrate %></strong>的同事</li>
+                        <li class="outrate_img"><span></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="btn_continue">
+                <a href="javascript:void(0)" class="btns btns-blue btns-biggest top10 startBtn">继续答题</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="/javascripts/pub.js"></script>
+<script type="text/javascript" src="/javascripts/version.js"></script>
+<script type="text/javascript" src="/javascripts/ajax.js"></script>
+<script>
+    console.log("init")
+    $(".fr-contain").css({"min-height": $(window).height()})
+    $(".startBtn").bind('click', function (e) {
+        testAjaxGet.testPage(0, this, function () {
+            $(".fr-back").hide();
+        });
+    })
+</script>
+
+

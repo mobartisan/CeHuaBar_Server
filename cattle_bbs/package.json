@@ -1,0 +1,42 @@
+{
+  "name": "cattle_bbs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "mongoose": "4.5.5",
+    "express-mongoose": "*",
+    "connect-mongo": "*",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
+    "feed": "^0.2.6",
+    "serve-favicon": "~2.3.0",
+    "bookshelf": "0.9.1",
+    "redis": "latest",
+    "knex": "0.9.0",
+    "connect-redis": "2.5.1",
+    "mysql": "latest",
+    "formidable": "latest",
+    "express-session": "1.13.0",
+    "node-uuid": "*",
+    "node-schedule": "*",
+    "request": "*",
+    "urlencode": "latest",
+    "jpush-sdk": "*",
+    "log4js": "*",
+    "mime": "*",
+    "pomelo-logger": "*",
+    "easyimage": "*",
+    "bluebird": "*",
+    "fluent-ffmpeg": "*",
+    "express-jwt": "*",
+    "jsonwebtoken": "*",
+    "bcrypt": "*"
+  }
+}

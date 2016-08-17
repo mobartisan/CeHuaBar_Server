@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title><%= title %></title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link href="/stylesheets/font-awesome.min.css" rel="stylesheet">
+    <link href="/stylesheets/common1.css" rel="stylesheet">
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/fr.routeApp-1.4.js"></script>
+    <script type="text/javascript" src="/javascripts/version.js"></script>
+    <style>
+        body, html {
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div style="display:none">
+    <img src="/images/m1.png?v1.0"/>
+    <img src="/images/m2.png?v1.0"/>
+    <img src="/images/m3.png?v1.0"/>
+    <img src="/images/m4.png?v1.0"/>
+    <img src="/images/mA1.png?v1.0"/>
+    <img src="/images/mA2.png?v1.0"/>
+    <img src="/images/mA3.png?v1.0"/>
+    <img src="/images/mA4.png?v1.0"/>
+</div>
+<div style="display:none">
+    <img src="/images2/m1.png?v1.0"/>
+    <img src="/images2/m2.png?v1.0"/>
+    <img src="/images2/m3.png?v1.0"/>
+    <img src="/images2/m4.png?v1.0"/>
+    <img src="/images2/mA1.png?v1.0"/>
+    <img src="/images2/mA2.png?v1.0"/>
+    <img src="/images2/mA3.png?v1.0"/>
+    <img src="/images2/mA4.png?v1.0"/>
+</div>
+<div class="fr-contain" fr-route="0" data-page="login.html">
+    <div class="loginWap clearfix">
+        <p class="center logoWap"><img src="/images/logo1.png?v1.0" class="logo"/></p>
+        <ul class="pad10" id="loginUl">
+            <li><i class="loginIcoAll loginIco1"></i><input type="text" placeholder="请输入已注册的账号" class="mobilePhone"
+                                                            id="mobilePhone" value=""/></li>
+            <li><i class="loginIcoAll loginIco2"></i><input type="password" placeholder="请输入登录密码" class="passWord"
+                                                            id="passWord" maxlength="11" value=""/></li>
+        </ul>
+        <p class="clearfix loginPasWap pad10"><span class="right loginBtn verMi"></span><label
+                    class="verMi"><input type="checkbox" checked="checked" class="rememberMe remenber"/><span
+                        class="left10">记住密码</span></label></p>
+        <div class="pad10 loginBtnsWap">
+            <a href="javascript:void(0)" class="btns btns-biggest btns-ye2 subBtns">登 录</a>
+            <p class="center colfff top10" id="text">忘记密码？</p>
+        </div>
+    </div>
+</div>
+<div id="loading" style="display:none;">
+    <i class="fa fa-spinner"
+       style="width: 4rem; height: 4rem; text-align: center; line-height: 4rem; font-size: 4rem; position: absolute; top: 50%; margin-top: -2rem; left: 50%; margin-left: -2rem; color: #999; -webkit-animation: rotate 1.5s linear infinite"></i>
+</div>
+
+<footer class="footer clearfix" style="display:none">
+    <a href="javascript:void(0)" class="a1 hhr_wytdBtn" fr-href="../partnerHtml/index.html"></a>
+    <a href="javascript:void(0)" class="a2 hhr_wytdBtn" fr-href="../partnerHtml/wodejingjiren.html"></a>
+    <a href="javascript:void(0)" class="a3 hhr_wytdBtn" fr-href="../partnerHtml/wodekehu.html"></a>
+    <a href="javascript:void(0)" class="a4 hhr_wytdBtn" fr-href="../partnerHtml/wo.html"></a>
+</footer>
+
+<footer class="footer2 clearfix" style="display:none">
+    <a href="javascript:void(0)" class="a1 wytdBtn" fr-href="index2.html"></a>
+    <a href="javascript:void(0)" class="a2 wdtdBtn" fr-href="wodetuidan.html"></a>
+    <a href="javascript:void(0)" class="a3 wdhhrBtn" fr-href="wodehehuoren.html"></a>
+    <a href="javascript:void(0)" class="a4 wytdBtn" fr-href="wo.html"></a>
+</footer>
+
+<!-- alert弹框  -->
+<div class="modal-wapper clearfix" id="alert">
+    <div class="pad10">
+        <p class="align-right clearfix"><i class="fa fa-close close font14"></i></p>
+        <p class="text font14 line20 pad10TB"></p>
+        <p class="align-right top10">
+
+            <a href="javascript:void(0)" class="btns btns-ye btns-small btnsConfirm">确定</a>
+        </p>
+    </div>
+</div>
+<!-- confirm弹框  -->
+<div class="modal-wapper clearfix" id="confirm">
+    <div class="pad10">
+        <p class="align-right line30 clearfix"><i class="fa fa-close close font14"></i></p>
+        <p class="text font14 line20 pad10TB"></p>
+        <p class="align-right top10">
+            <a href="javascript:void(0)" class="btns btns-ye btns-small btnsConfirm">确定</a>
+            <a href="javascript:void(0)" class="btns btns-grey btns-small btnsCancel left20">取消</a>
+        </p>
+    </div>
+</div>
+<form id="inputForm" type="hidden"></form>
+<input id="deviceToken" type="hidden" name="deviceToken" value=""/>
+<input id="version" type="hidden" name="version" value=""/>
+<input id="modelType" type="hidden" name="modelType" value=""/>
+
+<script type="text/javascript" src="/javascripts/pub.js"></script>
+<script type="text/javascript" src="/javascripts/ajax3.js?v1.4"></script>
+
+<script>
+
+    $(".subBtns").frRoute()
+    $(".loginWap input").focus(function () {
+        $('.fr-contain').animate({scrollTop: "130px"}, 700);
+    });
+    $(".subBtns").bind("touchstart", function () {
+        loginSubmit();
+    })
+    function loginSubmit() {
+        console.log("loginSubmit");
+        var re = /^(((1[0-9]{1}[0-9]{1}))+\d{8})$/;
+        var username = $(".mobilePhone").val(),
+                password = $(".passWord").val(),
+                rememberMe = $(".rememberMe").is(':checked');
+        if (username == "") {
+            console.log("账号不能为空")
+            //modal.show("账号不能为空");
+            return;
+        }
+        else if (password == "") {
+            console.log("密码不能为空")
+            //modal.show("密码不能为空")
+            return;
+        } else if (password.length < 6) {
+            console.log("密码最低6位")
+            //modal.show("密码最低6位")
+        } else {
+            $(".loginWap input").blur();
+            var $tar = $(".subBtns");
+            $tar.addClass("btns-grey");
+            $tar.attr("disabled", "disabled");
+            loginAjaxGet.login(username, password, function () {
+                $tar.removeClass("btns-grey").removeAttr("disabled")
+            });
+        }
+    }
+</script>
+</body>
+</html>

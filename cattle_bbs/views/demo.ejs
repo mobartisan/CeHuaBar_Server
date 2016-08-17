@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title><%= title %>></title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link href="/stylesheets/font-awesome.min.css" rel="stylesheet">
+    <link href="/stylesheets/common2.css" rel="stylesheet">
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/fr.routeApp-2.1.js"></script>
+    <style>
+        .goodsTitile {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .jfListWap p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="background-color:#fff;">
+<header class="header">
+    <span class="colfff font16 span">积分商城</span>
+    <i class="icoAll ico1 fr-back"></i>
+    <span class="headHtmlWap">
+    </span>
+</header>
+
+<div id="wappperAll">
+    <div class="fr-contain" fr-route="0" data-page="jifenList.html" style="position:static; background-color: #fff;">
+        <title>积分商城</title>
+        <div class="hearHtml" style="display:none">
+
+        </div>
+        <div class="jfBanner colfff m-flex-wap">
+            <div class="center m-flex-per jfRouteBtn" fr-href="jifenmingxi.html">
+                <p class="font12 top25">我的积分</p>
+                <p class="font16 top10" id="scoreId"></p>
+
+            </div>
+            <div class="center m-flex-per jfRouteBtn" fr-href="wodeduihuan.html">
+                <p class="font12 top25">我的兑换</p>
+                <p class="font16 top10" id="count"></p>
+            </div>
+        </div>
+        <div class="jfTabsWap m-flex-wap">
+            <span class=" m-flex-per jfRouteBtn" fr-href="jifenList_1.html" data-title="好享家服务">好享家服务</span>
+            <span class=" m-flex-per jfRouteBtn" fr-href="/mpp/api/v1.0/gotoDemo2" data-title="生活休闲">生活休闲</span>
+        </div>
+        x
+        <div class="jfListWap clearfix" id="shopList">
+
+        </div>
+    </div>
+    <!-- alert弹框  -->
+    <div class="modal-wapper clearfix" id="alert">
+        <div class="pad10">
+            <p class="align-right clearfix"><i class="fa fa-close close font14"></i></p>
+            <p class="text font14 line20 pad10TB"></p>
+            <p class="align-right top10">
+
+                <a href="javascript:void(0)" class="btns btns-ye btns-small btnsConfirm">确定</a>
+            </p>
+        </div>
+    </div>
+    <div class="m-selectWap dzSelect">
+        <div class="pad10">
+            <p class="colYe font14">请选择您所在的地区</p>
+            <select id="bjdz_provinceId" onchange="changeCity()">
+            </select>
+            <select id="bjdz_cityId" onchange="changeArea()">
+                <option value="0">--请选择城市--</option>
+            </select>
+            <select id="bjdz_areaId">
+                <option value="0">--请选择地区--</option>
+            </select>
+            <div id="desId" style="display:block"><font id="despp" color='red'></font></div>
+            <p class="center top20">
+                <span id="btn1" class="btns btns-nom btns-ye">确定</span>
+                <span id="btn2" class="btns btns-nom btns-grey left20">取消</span>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/javascripts/version.js"></script>
+<script type="text/javascript" src="/javascripts/pub.js"></script>
+<script type="text/javascript" src="/javascripts/ajax2.js"></script>
+<script>
+    var uid = GetQueryString("uid");
+    SetCookie("uid", uid);
+
+
+    $(".fr-contain").css({"min-height": $(window).height()})
+    $(".jfRouteBtn").frRoute()
+    jjrAjaxGet.jifenshangcheng(uid);
+    function jifenshangcheng(json) {
+        var psUserPoints = eval("(" + json.psUserPoints + ")");
+        var goodList = eval("(" + json.goodList + ")");
+        if (json.count) {
+            $("#count").html(json.count);
+        } else {
+            $("#count").html(0)
+        }
+
+        if (psUserPoints == null) {
+            $("#scoreId").text(0);
+        } else {
+            $("#scoreId").text(psUserPoints.score);
+        }
+        $("#shopList").html("");
+        var html = "";
+        var width = document.body.clientWidth / 2 * 0.7 - 10;
+        for (var key in goodList) { //第一层循环取到各个list
+            var List = goodList[key];
+            html += '<li class="goods" db-goodId="' + List.code + '">';
+            html += '<img src="' + List.thmbnailImage + '?v2.0" style="height:' + width + 'px"/>';
+//         html  += '<img src="../images/img2.jpg" />';
+            html += '<p class="clearfix goodsTitile top5">' + List.name + '</p>';
+            html += '<p class="col999 top5"><span class="colYe">' + List.point + '积分</span></p>';
+            html += ' </li>';
+
+        }
+        ;
+        $("#shopList").append(html);
+
+        $('.goods').click(function () {
+            var goodId = $(this).attr('db-goodId');
+            $(document).frRoute({
+                direct: true,
+                directUrl: 'jifenShop-detail.html',
+                callBack: function () {
+                    jjrAjaxGet.jifenshangpinxiangqing(goodId);
+                }
+            })
+        })
+    }
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,45 @@
+<title>生活休闲</title>
+<div class="hearHtml" style="display:none">
+</div>
+<div class="wdjfWap" id="xxjf">我的积分:</div>
+<div class="jfListWap clearfix bgFFF" id="xxList">
+</div>
+<script>
+    $(".jfRouteBtn").frRoute()
+    jjrAjaxGet.shenghuoxiuxian(getCookie("uid"));
+    function shenghuoxiuxian(json){
+        var psUserPoints = eval("("+json.psUserPoints+")");
+        var goodList = eval("("+json.goodList+")");
+        var point = '我的积分: ';
+        if(psUserPoints==null){
+            $("#xxjf").text(point + 0);
+        }else{
+            $("#xxjf").text(point + psUserPoints.score);
+        }
+
+        $("#xxList").html("");
+        var html = "";
+        var width = document.body.clientWidth/2*0.7 - 10;
+        for(var key in goodList){ //第一层循环取到各个list
+            var List = goodList[key];
+            html  += '<li class="goods" db-goodId="'+List.code+'">';
+//            html  += '<img src="../images/img2.jpg" />';
+                html  += '<img src="'+List.thmbnailImage+'?v2.0" style="height:'+width+'px"/>';
+            html  += '<p class="clearfix goodsTitile top5">'+List.name+'</p>';
+            html  += '<p class="col999 top5"><span class="colYe">'+List.point+'积分</span></p>';
+            html  += '</li>';
+        };
+        $("#xxList").append(html);
+
+        $('.goods').click(function(){
+            var goodId = $(this).attr('db-goodId');
+            $(document).frRoute({
+                direct:true,
+                directUrl:'jifenShop-detail.html',
+                callBack:function(){
+                    jjrAjaxGet.jifenshangpinxiangqing(goodId);
+                }
+            })
+        })
+    }
+</script>

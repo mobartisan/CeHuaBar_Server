@@ -1,0 +1,112 @@
+<title><%= title %></title>
+<div class="hearHtml" style="display:none">
+</div>
+<div style="background-color:#f0f1f2;">
+    <div class="device_detail">
+        <div class="device_content">
+            <div class="eq_abstract">
+                <div class="eq_title"><h1>林洋集中器</h1></div>
+                <p>集中器是指收集各采集器或电能表的数据，并进行处理储存，同时能和主站或手持设备进行数据交换的设备。</p>
+                <div class="split_line"><img src="/images/split-line.png"/></div>
+                <div class="fix_title"><h1>安装手册</h1></div>
+                <h2>1.0作业要求</h2>
+                <p>a. 低压用户集中抄表系统必须在每个台变下安装1台集中器，用于抄收该台变下载波电能表的电能量</p>
+                <p>b. 载波电能表安装通电后，及时组织集中器安装，确保安装质量</p>
+                <h2>2.0人员资质</h2>
+                <p>安装人员必须进行技术培训，了解集中器安装岗位要求。</p>
+                <h2>3.0作业程序</h2>
+                <div class="task_img"><img src="/images/task@3x.png"/></div>
+                <h2>3.1安装计划</h2>
+                <p>载波电能表安装通电后，项目执行人下达《集中器安装计划》给安装负责人，明确下列要求：<br> 
+                    a. 安装负责人<br> 
+                    b. 安装地点<br> 
+                    c. 安装时间<br> 
+                    d. 安装器材<br>  
+                    e. 安装资料<br>  
+                    f. 安装工具</p>
+                <h2>3.2安装准备</h2>
+                <p>a. 根据《集中器安装计划》的内容，向安装人员进行口头交底，明确安装任务和要求</p> 
+                <p>b. 了解现场安装条件，熟悉相关资料，必要时组织现场勘查</p> 
+                <p>c. 领取安装器材、准备安装工具和资料</p> 
+                <p>d. 集中器上行通讯的标准配置为GSM或GPRS调制解调器，安装前给集中器插入已开通的GSM或GPRS数据业务卡</p>
+                <h2>3.3安装要求</h2>
+                <h2>3.3.1集中器安装位置要求</h2>
+                <p>a. 在台变片区的中心位置<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. 有三相四线供电电源；<br> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;c. 考虑GSM或GPRS通讯的可靠性</p>
+                <h2>3.3.2集中器安装固定要求</h2>
+                <p>a. 考虑防雨、防盗，必要时给集中器增加防护箱<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. 集中器及防护箱安装必须端正、牢固和美观<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. 接线简短、布线美观<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. 便于后期操作和维护</p>
+                <h2>3.3.3集中器接线要求</h2>
+                <p>a. 把三相四线电源A、B、C、N引出接到4P空气断路器进线端子并紧固<br> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;b. 从4P空气断路器出线端子引出三相四线电源A、B、C、N接到载波Moder上并紧固<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. 安装接线完成后整理和绑扎连接线，必要时布走线槽</p>
+                <h2>3.3.4集中器安装其它要求：</h2>
+                <p>a. 集中器安装结束后进行安装自验，保证各项工艺符合要求<br> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;b. 安装自验合格后给集中器通电，检测和保证集中器的工作状态和通讯功能正常<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. 认真填写《集中器安装记录》，为系统调试提供基础数据</p>
+                <h2>4.0安装作业图</h2>
+                <div class="insta_work"><img src="/images/installation-work@3x.png"/></div>
+                <div class="fix_title"><h1>维护手册</h1></div>
+                <h2>1.0集中器指示灯</h2>
+                <p>运行：绿色，间隔1s闪动，表示终端已启动，否则，请检查接线是否正确；<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电源指示：三相电源灯一一对应，通电的相位灯常亮。<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通信相位：A、B、C三相相位指示灯指示集中器当前的抄表相位。</p>
+                <h2>1.1载波模块指示灯</h2>
+                <p>载波通信（下行）发送：向电表发送抄表命令。如集中器有表而载波发送灯不亮，说明当前处于路由学习状态。<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;载波通信（下行）接收：接收电表返回的载波信号。如发送灯亮而接收灯不亮，说明当前表没有抄到。<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电源灯：常亮。</p>
+                <h2>1.2通讯模块指示灯</h2>
+                <p>网络：GPRS网络状态指示；<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不闪：GPRS模块未启动，请检查模块是否接插不牢；<br> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;64 ms 亮，1 s灭： 模块已经启动，但未完成网络位置登记；如长时间处于此状态，请检查SIM卡是否可以正常使用；64ms 亮，3 s灭： 完成网络位置登记；<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发送：GPRS发送信息指示；<br> 
+                    &nbsp;&nbsp;&nbsp;接收：GPRS接收信息指示。</p>
+                <h2>2.0集中器常见故障：</h2>
+                <h2>2.1集中器不上线 </h2>
+                <p>a. 确认主站IP地址、端口、APN参数是否正确 确认模块和天线接触是否良好，确认信号强度<br> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;b. 卡是否开通GPRS服务，是否欠费，SIM卡接触是否良好<br>  
+                    &nbsp;&nbsp;&nbsp;c. 通道是否良好<br> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;d. 模块是否正常<br> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;e. 打印调试信息<br>注意：集中器下线状态时，一定不能在主站对其进行配置！！！！！</p>
+                <h2>2.2抄不到载波表</h2>
+                <p>a. 确认电表特征字是否正确，是否已选择“载波无线”<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. 确认集中器载波模块是否损坏；观察发送和接收灯是否正常<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. 打印集中器调试信息，确认集中器程序是否正常运行<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. 现场观察电表负荷线路是否属于本台区；电表表号是否正确无误；确认电表载波通道是否正常</p>
+                <div class="fix_title"><h1>工具和配件</h1></div>
+                <div class="tool_accessory">
+                    <table>
+                        <tr>
+                            <th><img src="/images/Tools@3x.png"/></th>
+                            <th><img src="/images/Shape-145@3x.png"/></th>
+                        </tr>
+                        <tr>
+                            <td>螺丝刀组合</td>
+                            <td>升级U盘</td>
+                        </tr>
+                        <tr>
+                            <td>钢丝钳</td>
+                            <td>SIM卡（移动联通）</td>
+                        </tr>
+                        <tr>
+                            <td>低压验电笔</td>
+                            <td>电源线</td>
+                        </tr>
+                        <tr>
+                            <td>绝缘梯</td>
+                            <td>470天线</td>
+                        </tr>
+                        <tr>
+                            <td>绝缘手套</td>
+                            <td>GPRS天线</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

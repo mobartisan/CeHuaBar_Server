@@ -1,0 +1,1444 @@
+@charset "utf-8";
+
+/*reset*/
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+html, body {
+    font-family: 'Arial', 'Microsoft Yahei', 'Droid Sans Fallback', 'STHeiti-Light';
+    font-size: 1.2rem;
+    color: #666;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media (min-width: 360px) and (max-width: 400px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 401px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+body {
+    color: #666;
+    line-height: 1;
+}
+
+.fullImg, .fullImg img {
+    width: 100%;
+}
+
+html, body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, p, blockquote, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+
+input, select, textarea, button {
+    font-size: 100%;
+    outline: 0;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: inherit;
+}
+
+span, p {
+    font-size: 1.2rem;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1.2rem;
+}
+
+fieldset, img {
+    border: 0
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal
+}
+
+address, caption, cite, code, dfn, em, i {
+    font-style: normal;
+    font-weight: 500
+}
+
+ol, ul, li {
+    list-style: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500
+}
+
+sub, sup {
+    font-size: 55%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.15em
+}
+
+a {
+    color: #7e7e7e;
+}
+
+span {
+    vertical-align: middle
+}
+
+ins, a {
+    text-decoration: none;
+    outline: none;
+    -webkit-appearance: none
+}
+
+a:active {
+    background: none;
+    opacity: 0.8;
+}
+
+a:link {
+    border-style: none;
+}
+
+table {
+    width: 100%;
+}
+
+a, button, input {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.top5 {
+    margin-top: 0.5rem;
+}
+
+.top10 {
+    margin-top: 1rem;
+}
+
+.top15 {
+    margin-top: 1.5rem;
+}
+
+.top20 {
+    margin-top: 2rem;
+}
+
+.top25 {
+    margin-top: 2.5rem;
+}
+
+.top30 {
+    margin-top: 3rem;
+}
+
+.top40 {
+    margin-top: 4rem;
+}
+
+.top50 {
+    margin-top: 5rem;
+}
+
+.top60 {
+    margin-top: 6rem;
+}
+
+.top70 {
+    margin-top: 7rem;
+}
+
+.top80 {
+    margin-top: 8rem;
+}
+
+.top90 {
+    margin-top: 9rem;
+}
+
+.top100 {
+    margin-top: 10rem;
+}
+
+.left5 {
+    margin-left: 0.5rem;
+}
+
+.left10 {
+    margin-left: 1rem;
+}
+
+.left15 {
+    margin-left: 1.5rem;
+}
+
+.left20 {
+    margin-left: 2rem;
+}
+
+.left25 {
+    margin-left: 2.5rem;
+}
+
+.left30 {
+    margin-left: 3rem;
+}
+
+.left40 {
+    margin-left: 4rem;
+}
+
+.left50 {
+    margin-left: 5rem;
+}
+
+.left60 {
+    margin-left: 6rem;
+}
+
+.left70 {
+    margin-left: 7rem;
+}
+
+.right5 {
+    margin-right: 0.5rem;
+}
+
+.right10 {
+    margin-right: 1rem;
+}
+
+.right15 {
+    margin-right: 1.5rem;
+}
+
+.right20 {
+    margin-right: 2rem;
+}
+
+.right25 {
+    margin-right: 2.5rem;
+}
+
+.right30 {
+    margin-right: 3rem;
+}
+
+.right40 {
+    margin-right: 4rem;
+}
+
+.right50 {
+    margin-right: 5rem;
+}
+
+.right60 {
+    margin-right: 6rem;
+}
+
+.right70 {
+    margin-right: 7rem;
+}
+
+.bottom5 {
+    margin-bottom: 0.5rem;
+}
+
+.bottom10 {
+    margin-bottom: 1rem;
+}
+
+.bottom15 {
+    margin-bottom: 1.5rem;
+}
+
+.bottom20 {
+    margin-bottom: 2rem;
+}
+
+.bottom25 {
+    margin-bottom: 2.5rem;
+}
+
+.bottom30 {
+    margin-bottom: 3rem;
+}
+
+.bottom40 {
+    margin-bottom: 4rem;
+}
+
+.bottom50 {
+    margin-bottom: 5rem;
+}
+
+.bottom60 {
+    margin-bottom: 6rem;
+}
+
+.bottom70 {
+    margin-bottom: 7rem;
+}
+
+span, div, p {
+    font-size: 1.2rem;
+}
+
+input {
+}
+
+.pad0 {
+    padding: 0rem;
+}
+
+.pad10 {
+    padding: 1rem;
+}
+
+.pad10RL {
+    padding: 0 1rem;
+}
+
+.pad10TB {
+    padding: 1rem 0;
+}
+
+.pad20 {
+    padding: 2rem;
+}
+
+.pad20TB {
+    padding: 2rem 0;
+}
+
+.pad15 {
+    padding: 1.5rem;
+}
+
+.pad15RL {
+    padding: 0 1.5rem;
+}
+
+.pad30RL {
+    padding: 0 3rem;
+}
+
+.clear {
+    clear: both
+}
+
+input[type='text'], input[type='password'], input[type='tel'], input[type='button'], textarea {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+.line14 {
+    line-height: 1.4rem;
+}
+
+.line16 {
+    line-height: 1.6rem;
+}
+
+.line18 {
+    line-height: 1.8rem;
+}
+
+.line20 {
+    line-height: 2rem;
+}
+
+.line24 {
+    line-height: 2.4rem;
+}
+
+.line30 {
+    line-height: 3rem;
+}
+
+.line35 {
+    line-height: 3.5rem;
+}
+
+.col999, a.col999, .col999 a {
+    color: #999;
+}
+
+.col666, a.col666, .col666 a {
+    color: #666;
+}
+
+.col333, a.col333, .col333 a {
+    color: #333;
+}
+
+.colfff, a.colfff, .colfff a {
+    color: #fff;
+}
+
+.colYe, a.colYe, .colYe a {
+    color: #ee7700;
+}
+
+.colYe2, a.colYe2, .colYe2 a {
+    color: #fadc62;
+}
+
+.colBlue, a.colBlue, .colBlue a {
+    color: #169ada;
+}
+
+.colBlue2, a.colBlue2, .colBlue2 a {
+    color: #105677;
+}
+
+.colRed, a.colRed, .colRed a {
+    color: #d7340c;
+}
+
+.colGreen, a.colGreen, .colGreen a {
+    color: #6fa507;
+}
+
+.m-flex-wap {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.m-flex-per {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 0;
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    max-width: 100%;
+    display: block;
+    padding: 0 !important;
+}
+
+.m-flex-per2 {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    width: 0;
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    max-width: 100%;
+    display: block;
+    padding: 0 !important;
+}
+
+.m-flex-per3 {
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    width: 0;
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    max-width: 100%;
+    display: block;
+    padding: 0 !important;
+}
+
+.m-flex-per4 {
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    width: 0;
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    max-width: 100%;
+    display: block;
+    padding: 0 !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.padEm em {
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+.font10 {
+    font-size: 1.0rem;
+}
+
+.font12 {
+    font-size: 1.2rem;
+}
+
+.font14 {
+    font-size: 1.4rem;
+}
+
+.font16 {
+    font-size: 1.6rem;
+}
+
+.font18 {
+    font-size: 1.8rem;
+}
+
+.font20 {
+    font-size: 2rem;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.verMi {
+    vertical-align: middle
+}
+
+.bgFFF {
+    background-color: #fff;
+}
+
+.btns, a.btns {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    border-radius: 4px;
+    vertical-align: middle;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    -webkit-appearance: none
+}
+
+.btns-small {
+    width: 6.5rem;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+}
+
+.btns-biggest {
+    width: 100%;
+    line-height: 3.1rem;
+    font-size: 1.2rem;
+}
+
+.btns-nom {
+    width: 6.5rem;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+.btns:active {
+    opacity: 0.8;
+}
+
+.btns-ye {
+    background-color: #ee7700;
+}
+
+.btns-ye2 {
+    background-color: #fbc82d;
+}
+
+.btns-grey {
+    background-color: #c1c1c1 !important;
+}
+
+.btns-blue {
+    background-color: #51c2fd;
+}
+
+.btns-blue2 {
+    background-color: #7accf2;
+}
+
+.btns-fff, .btns-fff:active {
+    background-color: inherit;
+    border: 1px solid #ddd !important;
+}
+
+.btns-ye:active {
+    background-color: #d86c00;
+}
+
+.btns-ye2:active {
+    background-color: #efb400;
+}
+
+.btns-grey:active {
+    background-color: #c1c1c1;
+}
+
+.btns-blue:active {
+    background-color: #169ada;
+}
+
+.btns-tt {
+    width: 16rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    background: -webkit-linear-gradient(#c5230d, #ab2311);
+}
+
+.btns-tt:active {
+    background: -webkit-linear-gradient(#ab2311, #c5230d);
+    opacity: 1
+}
+
+.btns-yuan {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 1rem;
+    line-height: 2rem;
+    font-size: 1.2rem !important;
+}
+
+.center {
+    text-align: center
+}
+
+.relative {
+    position: relative
+}
+
+.m-table {
+    width: 100%;
+}
+
+.m-table td {
+    padding: 0.5rem 0;
+}
+
+.txtOver p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.align-right {
+    text-align: right
+}
+
+.align-left {
+    text-align: left
+}
+
+.bor_btm_da {
+    border-bottom: 1px dashed #ccc;
+}
+
+.bor_btm_so {
+    border-bottom: 1px solid #ddd;
+}
+
+.fr-contain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all .3s ease-out;
+    background-color: #f1f0f5;
+    min-height: 100%;
+    box-sizing: border-box;
+    top: 4rem;
+}
+
+#wappperAll {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-top: 4rem;
+}
+
+/*commer*/
+.icoAll {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+    background-position: center center
+}
+
+.ico1 {
+    width: 0.5rem;
+    height: 0.9rem;
+    background-image: url(../images/ico1.png);
+}
+
+.ico2 {
+    width: 1.2rem;
+    height: 1rem;
+    background-image: url(../images/ico2.png);
+}
+
+.ico3 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../images/ico3.png);
+}
+
+.ico4 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../images/ico4.png);
+}
+
+.ico5 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../images/ico5.png);
+}
+
+.ico6 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../images/ico6.png);
+}
+
+.ico7 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../images/ico7.png);
+}
+
+.ico8 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../images/ico8.png);
+}
+
+.ico9 {
+    background-image: url(../images/ico9.png);
+}
+
+.ico10 {
+    background-image: url(../images/ico10.png);
+}
+
+.ico11 {
+    background-image: url(../images/ico11.png);
+}
+
+.ico12 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../images/ico12.png);
+}
+
+.ico13 {
+    width: 1.8rem;
+    height: 1.8rem;
+    background-image: url(../images/ico13.png);
+}
+
+.header {
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    background-color: #20a3fe;
+    color: #fff;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000
+}
+
+.header .span {
+    line-height: 4.4rem;
+    font-size: 1.6rem;
+}
+
+.header .ico1 {
+    height: 4rem;
+    width: 3rem;
+    background-size: 30% auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header .span2 {
+    line-height: 4.4rem;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+}
+
+.jfBanner {
+    height: 7.7rem;
+    background: url(../images/img1.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.jfTabsWap span {
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.jfTabsWap span:first-child {
+    background-color: #35bbf5
+}
+
+.jfTabsWap span:last-child {
+    background-color: #a1d024
+}
+
+.jfListWap li {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 0.5rem;
+}
+
+.jfListWap li img {
+    width: 100%;
+}
+
+.jfListWap li:nth-child(2) {
+    border-right: none
+}
+
+.wdjfWap {
+    background-color: #35bbf5;
+    color: #fff;
+    padding: 1.5rem 1rem;
+}
+
+.m-table2 {
+    width: 100%;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.m-table2 td {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 1.5rem;
+    vertical-align: middle
+}
+
+.m-table2 tr:last-child td {
+    border-bottom: none
+}
+
+.m-table2 tr td:first-child {
+    text-align: left
+}
+
+.m-table2 tr td:last-child {
+    text-align: right
+}
+
+.m-table2 td .input {
+    width: 16rem;
+    margin-left: 1rem;
+    border: none;
+    box-shadow: none;
+}
+
+.m-table2 td .input:focus {
+    border: none;
+    box-shadow: none
+}
+
+.wapper1 {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.m-table3 tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0
+}
+
+.m-table3 tr:last-child td {
+    border-bottom: none;
+}
+
+.m-table3 td .input {
+    width: 16rem;
+    margin-left: 1rem;
+    border: none;
+    box-shadow: none;
+}
+
+.m-table3 td .input:focus {
+    border: none;
+    box-shadow: none
+}
+
+.m-table3 label {
+    display: block
+}
+
+.tck-cover {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-wapper {
+    width: 92%;
+    margin-left: 4%;
+    box-sizing: border-box;
+    position: fixed;
+    display: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 100001;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.priceTotalWap {
+    position: fixed;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.m-selectWap {
+    position: fixed;
+    width: 90%;
+    margin: 0 5%;
+    top: 5rem;
+    padding-top: 3rem;
+    background-color: #fff;
+    z-index: 1001;
+    display: none;
+    max-height: 30rem;
+    overflow: auto;
+}
+
+.m-selectWap li {
+    height: 3rem;
+    line-height: 3rem;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+}
+
+.m-selectWap .tit {
+    background-color: #51c2fd;
+    width: 90%;
+    color: #fff;
+    font-size: 1.4rem;
+    padding-left: 1.5rem;
+    position: fixed;
+    top: 5rem;
+    box-sizing: border-box
+}
+
+.tdjdWap {
+}
+
+.tdjdWap .m-flex-per {
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.tdjdWap .stat {
+    background-image: url(../images/ico10.png)
+}
+
+.tdjdWap .on {
+    background-image: url(../images/ico9.png)
+}
+
+.tdjdWap .jiange {
+    background-image: url(../images/ico11.png);
+}
+
+.tdjdWap .m-flex-per .p {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.tx1 {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%
+}
+
+.dhBg1 {
+    min-height: 4.5rem;
+    padding: 1rem;
+    background: url(../images/duihuan.png?v1.0) repeat-x #fff;
+    background-size: auto 100%;
+    font-size: 1.4rem;
+    color: #333;
+    line-height: 1.8rem;
+    position: relative;
+    display: block
+}
+
+.dhBg1 .fa-user {
+    color: #ff7f00;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+}
+
+.dhBg1 .fa-mobile {
+    color: #ff7f00;
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+}
+
+.dhBg1 .fa-angle-right {
+    color: #999;
+    font-size: 2.5rem;
+    height: 6.5rem;
+    line-height: 6.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    text-align: center
+}
+
+.dhBg1 {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.myExchangeWap {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.myExchangeWap img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+}
+
+.myExchangeWap tr td:last-child {
+    text-align: right
+}
+
+.shdzWap {
+    border-bottom: 1px solid #ddd !important;
+    padding: 1.5rem 1rem;
+    position: relative;
+    background-color: #fff;
+    display: block
+}
+
+.shdzWap .fa-angle-right {
+    font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    color: #999;
+    height: 4rem;
+    line-height: 4rem;
+    width: 4rem;
+    text-align: center;
+}
+
+.addAddWap {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.addAddWap li, .addAddWap a {
+    border-bottom: 1px solid #ddd;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    padding: 0 0 0 1rem;
+    font-size: 1.2rem;
+    color: #333;
+    display: block
+}
+
+.addAddWap li:last-child {
+    border-bottom: none;
+}
+
+.addAddWap li .fa-caret-down, .addAddWap a .fa-caret-down {
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 3rem;
+    text-align: center;
+    float: right
+}
+
+.addAddWap li .selTetx, .addAddWap a .selTetx {
+    margin-left: 1rem;
+}
+
+.addAddWap input[type='text'] {
+    border: none;
+    background: none;
+    height: 4.5rem;
+    box-sizing: border-box;
+    color: #999;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.addAddWap input[type='text']:focus {
+    border: none;
+    background: none;
+}
+
+.addAddWap .fa-angle-right {
+    font-size: 2rem;
+    vertical-align: middle;
+    height: 4.4rem;
+    line-height: 4.4rem;
+    margin-left: 0.5rem;
+    float: right;
+    margin-right: 1rem;
+    color: #999
+}
+
+.checkBox1 {
+    width: 71px;
+    height: 36px;
+    background: url(../images/checkBoxBg.png?v1.0) no-repeat;
+    background-position: left top;
+    background-size: auto 100%;
+}
+
+.checkBox1.on {
+    background-position: right top;
+    background-size: auto 100%;
+}
+
+.addAddWap .checkBox1 {
+    float: right;
+    margin: 8px 1rem 0 0
+}
+
+.icoCon {
+    width: 2.1rem;
+    height: 1.6rem;
+    background: url(../images/1_03.png?v1.0) no-repeat center;
+    background-size: 100% auto;
+}
+
+.header .icoCon {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    height: 4.4rem;
+}
+
+.registerWap li {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.registerWap input {
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 1rem 1rem 1rem 1rem;
+    height: 4rem;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    border-radius: 3px;
+}
+
+.registerWap .regIcoAll {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+.registerWap .span {
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+}
+
+.registerWap .yzm {
+    width: 11rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    border: none;
+    background-color: #ffb46a;
+    color: #fff;
+}
+
+.registerWap .txt {
+    position: absolute;
+    left: 1rem;
+    top: 1.4rem
+}
+
+.registerWap2 input {
+    padding: 1rem 3.8rem 1rem 7rem;
+}
+
+.registerWap2 .ico16 {
+    position: absolute;
+    top: 1.8rem;
+    right: 1rem;
+}
+
+.registerWap .ico16 {
+    position: absolute;
+    top: 1.8rem;
+    right: 4.3rem
+}
+
+.regIcoAll {
+    width: 1.9rem;
+    height: 1.9rem;
+    display: inline-block;
+    background-size: 100% 100%
+}
+
+.regIco1 {
+    background-image: url(../images/regIco1.png?v1.0);
+}
+
+.regIco2 {
+    background-image: url(../images/regIco2.png?v1.0);
+}
+
+.regIco3 {
+    background-image: url(../images/regIco3.png?v1.0);
+}
+
+.regIco4 {
+    background-image: url(../images/regIco4.png?v1.0);
+}
+
+.regIco5 {
+    background-image: url(../images/regIco5.png?v1.0);
+}
+
+.regIco6 {
+    background-image: url(../images/regIco6.png?v1.0);
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.qdWap {
+    height: 18rem;
+    background: url(../images/qdBg.jpg) no-repeat center;
+    position: relative;
+    background-size: auto 100%;
+    position: relative;
+}
+
+.qdWap .qdBtn {
+    width: 11rem;
+    height: 11rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -5.5rem 0 0 -5.5rem;
+    background: url(../images/qdBtns.png) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.qdWap .jfDetail {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.calendarWap {
+    margin: 0 1rem;
+    border: 1px solid #ddd;
+    color: #999;
+}
+
+.calendarWap .top {
+    height: 3.8rem;
+    background-color: #ee7700;
+    line-height: 3.8rem;
+    text-align: center;
+}
+
+.calendarWap .cont {
+    padding: 1rem;
+}
+
+.calendarWap .cont .span {
+    float: left;
+    display: inline;
+    width: 14.2%;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.calendarWap .cont .span.active {
+    background: url(../images/qdActive.png) no-repeat center center;
+    background-size: auto 80%;
+}
+
+.calendarWap .cont .span.on {
+    color: #ee7700
+}
+
+.m-table4 tr .bottom0 {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0
+}
+
+.m-table4 tr .bottom1 {
+    padding: 1rem 0 0.5rem 0
+}
+
+.m-table4 tr .bottom2 {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0 1rem 0
+}
+
+.m-table4 tr:last-child td {
+    border-bottom: none;
+}
+
+.m-table4 td .input:focus {
+    border: none;
+    box-shadow: none
+}
+
+#skeTch img, .m-table4 img, .m-table4 table {
+    width: 100% !important;
+}
+
+@-webkit-keyframes jifen {
+    0% {
+        opacity: 0;
+        margin-top: -30px
+    }
+    50% {
+        opacity: 1;
+        margin-top: 0;
+    }
+    100% {
+        opacity: 0;
+        margin-top: 30px;
+    }
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-height: 650px) {
+
+}
+
+@media screen and (max-height: 570px) {
+
+}
+
+@media screen and (max-height: 500px) {
+
+}
+
+@media screen and (max-width: 350px) {
+
+}
+
+@keyframes shandong {
+    from {
+        -webkit-transform: scale(0.8);
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+

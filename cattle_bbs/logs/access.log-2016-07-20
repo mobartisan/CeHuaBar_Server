@@ -1,0 +1,520 @@
+[2016-07-20 10:40:06.640] [ERROR] access - def.extend is not a function
+[2016-07-20 10:40:06.651] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 200 64 "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:40:06.727] [ERROR] access - Not Found
+[2016-07-20 10:40:06.728] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:40:48.992] [ERROR] access - def.extend is not a function
+[2016-07-20 10:40:49.002] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:40:49.030] [ERROR] access - Not Found
+[2016-07-20 10:40:49.032] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:47:25.798] [ERROR] access - Request path contains unescaped characters
+[2016-07-20 10:47:25.806] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:47:25.832] [ERROR] access - Not Found
+[2016-07-20 10:47:25.833] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.359] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 10:48:10.373] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 200 2928 "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.387] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.389] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.390] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.390] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.392] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.393] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.394] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.395] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.397] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.398] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.540] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.561] [ERROR] access - Not Found
+[2016-07-20 10:48:10.562] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.608] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/stylesheets/common.css" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:10.649] [ERROR] access - Not Found
+[2016-07-20 10:48:10.650] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:12.365] [INFO] access - ::1 - - "GET /mpp/api/v1.0/test/getTestPage?count=0 HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:12.377] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/testpage HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:48:12.387] [INFO] access - ::1 - - "GET /images/ico1.png HTTP/1.1" 304 - "http://localhost:3000/stylesheets/common.css" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:53:48.470] [ERROR] access - data is not defined
+[2016-07-20 10:53:48.479] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 200 64 "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:53:48.495] [ERROR] access - Not Found
+[2016-07-20 10:53:48.497] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.772] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 10:54:58.783] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 200 2928 "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.797] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.798] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.799] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.799] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.800] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.801] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.805] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.806] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.807] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.812] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.814] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.818] [ERROR] access - Not Found
+[2016-07-20 10:54:58.819] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.853] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 10:54:58.877] [ERROR] access - Not Found
+[2016-07-20 10:54:58.878] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:01:04.647] [ERROR] access - data is not defined
+[2016-07-20 11:01:04.656] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 200 64 "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:01:04.682] [ERROR] access - Not Found
+[2016-07-20 11:01:04.683] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:04:24.084] [ERROR] access - data is not defined
+[2016-07-20 11:04:24.092] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:04:24.117] [ERROR] access - Not Found
+[2016-07-20 11:04:24.119] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:05:50.332] [ERROR] access - data is not defined
+[2016-07-20 11:05:50.340] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:05:50.354] [ERROR] access - Not Found
+[2016-07-20 11:05:50.356] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.701] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 11:06:05.712] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 200 2928 "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.727] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.728] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.729] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.729] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.730] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.730] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.733] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.734] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.737] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.738] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.738] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.747] [ERROR] access - Not Found
+[2016-07-20 11:06:05.748] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.793] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:06:05.806] [ERROR] access - Not Found
+[2016-07-20 11:06:05.806] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.158] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 11:07:22.169] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.184] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.185] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.185] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.186] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.186] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.187] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.191] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.191] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.192] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.193] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.194] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.213] [ERROR] access - Not Found
+[2016-07-20 11:07:22.214] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.249] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:22.258] [ERROR] access - Not Found
+[2016-07-20 11:07:22.259] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:34.994] [ERROR] access - data is not defined
+[2016-07-20 11:07:35.002] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 200 64 "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:07:35.030] [ERROR] access - Not Found
+[2016-07-20 11:07:35.034] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:11:20.944] [ERROR] access - "listener" argument must be a function
+[2016-07-20 11:11:20.952] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:11:20.978] [ERROR] access - Not Found
+[2016-07-20 11:11:20.980] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:11:54.789] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 11:12:44.716] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 11:12:44.727] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.743] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.744] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.745] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.745] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.746] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.747] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.749] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.750] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.751] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.758] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.759] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.767] [ERROR] access - Not Found
+[2016-07-20 11:12:44.768] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.814] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:12:44.821] [ERROR] access - Not Found
+[2016-07-20 11:12:44.822] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:47.972] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 11:13:47.982] [INFO] access - complete
+[2016-07-20 11:13:47.983] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:47.996] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:47.997] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:47.998] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:47.999] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:48.000] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:48.001] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:48.004] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:48.004] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:48.005] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:48.010] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:48.011] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:48.025] [ERROR] access - Not Found
+[2016-07-20 11:13:48.026] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:48.052] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:13:48.070] [ERROR] access - Not Found
+[2016-07-20 11:13:48.071] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:15:00.993] [ERROR] access - Unexpected token u
+[2016-07-20 11:15:00.997] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:15:01.001] [INFO] access - complete
+[2016-07-20 11:15:26.500] [ERROR] access - Unexpected token u
+[2016-07-20 11:15:26.501] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:15:26.502] [INFO] access - complete
+[2016-07-20 11:16:38.149] [ERROR] access - Unexpected token u
+[2016-07-20 11:16:38.154] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:16:38.157] [DEBUG] access - {"code":400,"msg":"服务端错误","obj":null,"success":false}
+[2016-07-20 11:16:38.157] [INFO] access - complete
+[2016-07-20 11:18:38.138] [ERROR] access - Unexpected token u
+[2016-07-20 11:18:38.140] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:18:38.142] [DEBUG] access - {"code":400,"msg":"服务端错误","obj":null,"success":false}
+[2016-07-20 11:18:38.143] [INFO] access - complete
+[2016-07-20 11:18:49.844] [ERROR] access - Unexpected token u
+[2016-07-20 11:18:49.849] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:19:04.477] [ERROR] access - Unexpected token u
+[2016-07-20 11:19:04.482] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:19:04.485] [DEBUG] access - ====== body = {"code":400,"msg":"服务端错误","obj":null,"success":false}
+[2016-07-20 11:19:04.485] [INFO] access - complete
+[2016-07-20 11:19:15.642] [ERROR] access - Unexpected token u
+[2016-07-20 11:19:15.643] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:19:15.643] [DEBUG] access - ====== body = {"code":400,"msg":"服务端错误","obj":null,"success":false}
+[2016-07-20 11:19:15.644] [INFO] access - complete
+[2016-07-20 11:20:16.297] [ERROR] access - Unexpected token u
+[2016-07-20 11:20:16.302] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:20:16.307] [DEBUG] access - ====== body = undefined
+[2016-07-20 11:20:16.308] [INFO] access - complete
+[2016-07-20 11:22:11.760] [ERROR] access - Unexpected token u
+[2016-07-20 11:22:11.765] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:22:11.768] [DEBUG] access - ====== body = undefined
+[2016-07-20 11:22:11.768] [INFO] access - complete
+[2016-07-20 11:24:11.752] [ERROR] access - Unexpected token u
+[2016-07-20 11:24:11.753] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:24:11.754] [DEBUG] access - ====== body = undefined
+[2016-07-20 11:24:11.755] [INFO] access - complete
+[2016-07-20 11:33:54.039] [ERROR] access - Unexpected token u
+[2016-07-20 11:33:54.044] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:33:54.047] [DEBUG] access - ====== body = undefined
+[2016-07-20 11:33:54.047] [INFO] access - complete
+[2016-07-20 11:34:35.350] [ERROR] access - Unexpected token u
+[2016-07-20 11:34:35.355] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:35:57.014] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 11:35:57.017] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 11:35:57.018] [INFO] access - complete
+[2016-07-20 11:36:12.130] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 11:36:12.135] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 11:36:12.135] [INFO] access - complete
+[2016-07-20 11:36:24.215] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 11:36:24.218] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 11:36:24.229] [INFO] access - complete
+[2016-07-20 11:36:24.229] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 200 2928 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.242] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.244] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.246] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.248] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.248] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.250] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.250] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.251] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.258] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.259] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.260] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.297] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/stylesheets/common.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:24.325] [ERROR] access - Not Found
+[2016-07-20 11:36:24.327] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:26.249] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:26.250] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:26.250] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:26.251] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:36:26.360] [ERROR] access - Not Found
+[2016-07-20 11:36:26.361] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 11:42:29.208] [ERROR] access - problem with request: socket hang up
+[2016-07-20 11:42:29.209] [DEBUG] access - undefined
+[2016-07-20 11:42:50.373] [ERROR] access - problem with request: socket hang up
+[2016-07-20 11:42:50.374] [DEBUG] access - undefined
+[2016-07-20 11:42:52.614] [ERROR] access - problem with request: socket hang up
+[2016-07-20 11:42:52.614] [DEBUG] access - undefined
+[2016-07-20 11:42:55.228] [ERROR] access - problem with request: socket hang up
+[2016-07-20 11:42:55.228] [DEBUG] access - undefined
+[2016-07-20 11:42:55.962] [ERROR] access - problem with request: socket hang up
+[2016-07-20 11:42:55.962] [DEBUG] access - undefined
+[2016-07-20 11:43:23.886] [ERROR] access - problem with request: socket hang up
+[2016-07-20 11:43:23.888] [DEBUG] access - undefined
+[2016-07-20 11:43:24.783] [ERROR] access - problem with request: socket hang up
+[2016-07-20 11:43:24.783] [DEBUG] access - undefined
+[2016-07-20 11:44:37.927] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 11:44:37.930] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 11:44:37.936] [INFO] access - complete
+[2016-07-20 11:44:37.937] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 200 2928 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:37.949] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:37.951] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:37.951] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:37.952] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:37.955] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:37.955] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:37.956] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:37.957] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:37.964] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:37.964] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:37.965] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:38.007] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/stylesheets/common.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:44:38.033] [ERROR] access - Not Found
+[2016-07-20 11:44:38.034] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:45:40.881] [DEBUG] access - =====contents=  uid=1000
+[2016-07-20 11:45:40.889] [ERROR] access - problem with request: socket hang up
+[2016-07-20 11:45:40.890] [DEBUG] access - undefined
+[2016-07-20 11:46:33.738] [DEBUG] access - =====contents=  uid=1000
+[2016-07-20 11:46:33.750] [ERROR] access - problem with request: socket hang up
+[2016-07-20 11:46:33.751] [DEBUG] access - undefined
+[2016-07-20 11:46:35.060] [DEBUG] access - =====contents=  uid=1000
+[2016-07-20 11:46:35.062] [ERROR] access - problem with request: socket hang up
+[2016-07-20 11:46:35.063] [DEBUG] access - undefined
+[2016-07-20 11:47:14.744] [DEBUG] access - undefined
+[2016-07-20 11:47:14.748] [INFO] access - ::1 - - "GET /mpp/api/v1.0/test/initTestMainPage2 HTTP/1.1" 200 106 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:47:14.827] [ERROR] access - Not Found
+[2016-07-20 11:47:14.828] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/test/initTestMainPage2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:47:34.095] [DEBUG] access - 1000
+[2016-07-20 11:47:34.097] [INFO] access - ::1 - - "GET /mpp/api/v1.0/test/initTestMainPage2?uid=1000 HTTP/1.1" 200 106 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:47:34.193] [ERROR] access - Not Found
+[2016-07-20 11:47:34.194] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/test/initTestMainPage2?uid=1000" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:50:47.773] [DEBUG] access - =====contents=  uid=1000
+[2016-07-20 11:50:47.780] [ERROR] access - Not Found
+[2016-07-20 11:50:47.786] [INFO] access - ::ffff:127.0.0.1 - - "GET /mpp/api/v1.0/test/initTestMainPage2uid=1000 HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:50:47.790] [DEBUG] access - {"code":404,"msg":"服务端错误","obj":null,"success":false}
+[2016-07-20 11:50:47.790] [INFO] access - complete
+[2016-07-20 11:50:53.944] [DEBUG] access - =====contents=  uid=1000
+[2016-07-20 11:50:53.951] [ERROR] access - Not Found
+[2016-07-20 11:50:53.956] [INFO] access - ::ffff:127.0.0.1 - - "GET /mpp/api/v1.0/test/initTestMainPage2uid=1000 HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:50:53.961] [DEBUG] access - {"code":404,"msg":"服务端错误","obj":null,"success":false}
+[2016-07-20 11:50:53.962] [INFO] access - complete
+[2016-07-20 11:51:33.197] [DEBUG] access - =====contents=  uid=1000
+[2016-07-20 11:51:33.205] [ERROR] access - Not Found
+[2016-07-20 11:51:33.210] [INFO] access - ::ffff:127.0.0.1 - - "GET /mpp/api/v1.0/test/initTestMainPage2uid=1000 HTTP/1.1" 200 63 "" "undefined"
+[2016-07-20 11:51:33.214] [DEBUG] access - {"code":404,"msg":"服务端错误","obj":null,"success":false}
+[2016-07-20 11:51:33.215] [INFO] access - complete
+[2016-07-20 11:52:03.867] [DEBUG] access - =====contents=  uid=1000
+[2016-07-20 11:52:03.876] [DEBUG] access - 1000
+[2016-07-20 11:52:03.882] [INFO] access - ::ffff:127.0.0.1 - - "GET /mpp/api/v1.0/test/initTestMainPage2?uid=1000 HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 11:52:03.887] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 11:52:03.896] [INFO] access - complete
+[2016-07-20 11:52:03.896] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 200 2928 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.909] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.910] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.912] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.913] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.914] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.917] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.917] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.918] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.919] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.921] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.921] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.958] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:03.968] [ERROR] access - Not Found
+[2016-07-20 11:52:03.969] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.658] [DEBUG] access - =====contents=  uid=1000
+[2016-07-20 11:52:05.661] [DEBUG] access - 1000
+[2016-07-20 11:52:05.662] [INFO] access - ::ffff:127.0.0.1 - - "GET /mpp/api/v1.0/test/initTestMainPage2?uid=1000 HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 11:52:05.663] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 11:52:05.670] [INFO] access - complete
+[2016-07-20 11:52:05.670] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.682] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.683] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.684] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.684] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.685] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.686] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.687] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.687] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.688] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.689] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.691] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.718] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:05.736] [ERROR] access - Not Found
+[2016-07-20 11:52:05.737] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:09.373] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:09.375] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:09.376] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:09.378] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-20 11:52:09.456] [ERROR] access - Not Found
+[2016-07-20 11:52:09.456] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.305] [DEBUG] access - =====contents=  uid=1000
+[2016-07-20 12:48:12.314] [DEBUG] access - 1000
+[2016-07-20 12:48:12.320] [INFO] access - ::ffff:127.0.0.1 - - "GET /mpp/api/v1.0/test/initTestMainPage2?uid=1000 HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 12:48:12.323] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 12:48:12.331] [INFO] access - complete
+[2016-07-20 12:48:12.332] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.347] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.348] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.349] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.350] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.351] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.352] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.355] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.356] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.357] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.358] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.359] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.383] [ERROR] access - Not Found
+[2016-07-20 12:48:12.384] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.412] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:48:12.422] [ERROR] access - Not Found
+[2016-07-20 12:48:12.422] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.279] [DEBUG] access - =====contents=  uid=1000
+[2016-07-20 12:49:20.287] [DEBUG] access - undefined
+[2016-07-20 12:49:20.293] [INFO] access - ::ffff:127.0.0.1 - - "GET /mpp/api/v1.0/test/initTestMainPage2?uid=1000 HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 12:49:20.297] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 12:49:20.305] [INFO] access - complete
+[2016-07-20 12:49:20.305] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.320] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.321] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.322] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.323] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.323] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.327] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.327] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.328] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.329] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.330] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.331] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.349] [ERROR] access - Not Found
+[2016-07-20 12:49:20.350] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.379] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:49:20.396] [ERROR] access - Not Found
+[2016-07-20 12:49:20.396] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.695] [DEBUG] access - =====bodyContents=  uid=1000
+[2016-07-20 12:50:02.696] [DEBUG] access - =====queryContents=  sessionId=123123123
+[2016-07-20 12:50:02.720] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage?sessionId=123123123 HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 12:50:02.723] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 12:50:02.731] [INFO] access - complete
+[2016-07-20 12:50:02.732] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.746] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.747] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.748] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.748] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.749] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.753] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.754] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.755] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.756] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.763] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.764] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.778] [ERROR] access - Not Found
+[2016-07-20 12:50:02.779] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.812] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:50:02.821] [ERROR] access - Not Found
+[2016-07-20 12:50:02.821] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.167] [DEBUG] access - =====bodyContents=  uid=1000
+[2016-07-20 12:51:37.167] [DEBUG] access - =====queryContents=  sessionId=123123123
+[2016-07-20 12:51:37.187] [DEBUG] access - =======1000
+[2016-07-20 12:51:37.187] [DEBUG] access - =======123123123
+[2016-07-20 12:51:37.192] [INFO] access - ::ffff:127.0.0.1 - - "POST /mpp/api/v1.0/test/initTestMainPage?sessionId=123123123 HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 12:51:37.196] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 12:51:37.203] [INFO] access - complete
+[2016-07-20 12:51:37.203] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.217] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.218] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.219] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.220] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.221] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.221] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.223] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.224] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.230] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.232] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.232] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.248] [ERROR] access - Not Found
+[2016-07-20 12:51:37.249] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.275] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:51:37.292] [ERROR] access - Not Found
+[2016-07-20 12:51:37.293] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.428] [DEBUG] access - =====bodyContents=  uid=1000
+[2016-07-20 12:54:06.428] [DEBUG] access - =====queryContents=  sessionId=123123123
+[2016-07-20 12:54:06.447] [DEBUG] access - =======1000
+[2016-07-20 12:54:06.447] [DEBUG] access - =======123123123
+[2016-07-20 12:54:06.453] [INFO] access - ::ffff:127.0.0.1 - - "PUT /mpp/api/v1.0/test/initTestMainPage3?sessionId=123123123 HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 12:54:06.456] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 12:54:06.463] [INFO] access - complete
+[2016-07-20 12:54:06.464] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.478] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.479] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.479] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.480] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.481] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.483] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.484] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.485] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.490] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.492] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.493] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.509] [ERROR] access - Not Found
+[2016-07-20 12:54:06.510] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.536] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:06.555] [ERROR] access - Not Found
+[2016-07-20 12:54:06.556] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.763] [DEBUG] access - ===put===
+[2016-07-20 12:54:34.764] [DEBUG] access - =====bodyContents=  uid=1000
+[2016-07-20 12:54:34.764] [DEBUG] access - =====queryContents=  sessionId=123123123
+[2016-07-20 12:54:34.786] [DEBUG] access - =======1000
+[2016-07-20 12:54:34.787] [DEBUG] access - =======123123123
+[2016-07-20 12:54:34.792] [INFO] access - ::ffff:127.0.0.1 - - "PUT /mpp/api/v1.0/test/initTestMainPage3?sessionId=123123123 HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 12:54:34.795] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 12:54:34.802] [INFO] access - complete
+[2016-07-20 12:54:34.803] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.817] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.819] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.819] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.820] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.822] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.822] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.825] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.826] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.831] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.833] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.834] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.850] [ERROR] access - Not Found
+[2016-07-20 12:54:34.851] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.875] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:54:34.898] [ERROR] access - Not Found
+[2016-07-20 12:54:34.898] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.576] [DEBUG] access - =====contents=  uid=1000
+[2016-07-20 12:57:12.585] [DEBUG] access - undefined
+[2016-07-20 12:57:12.592] [INFO] access - ::ffff:127.0.0.1 - - "GET /mpp/api/v1.0/test/initTestMainPage2?uid=1000 HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 12:57:12.596] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 12:57:12.603] [INFO] access - complete
+[2016-07-20 12:57:12.603] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.618] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.620] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.620] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.622] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.622] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.625] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.626] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.626] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.628] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.629] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.630] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.648] [ERROR] access - Not Found
+[2016-07-20 12:57:12.650] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.684] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 12:57:12.691] [ERROR] access - Not Found
+[2016-07-20 12:57:12.692] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.729] [DEBUG] access - initTestDelete
+[2016-07-20 13:07:36.730] [DEBUG] access - ===get===
+[2016-07-20 13:07:36.739] [DEBUG] access - undefined
+[2016-07-20 13:07:36.747] [INFO] access - ::ffff:127.0.0.1 - - "GET /mpp/api/v1.0/test/initTestMainPage2?uid=1000 HTTP/1.1" 200 106 "" "undefined"
+[2016-07-20 13:07:36.752] [DEBUG] access - {"code":1000,"msg":"获取成功","obj":{"monthCount":26,"accuracy":"40%","outrate":"80%"},"success":true}
+[2016-07-20 13:07:36.760] [INFO] access - complete
+[2016-07-20 13:07:36.761] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/mytest HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.784] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.785] [INFO] access - ::1 - - "GET /stylesheets/font-awesome.min.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.786] [INFO] access - ::1 - - "GET /stylesheets/common.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.788] [INFO] access - ::1 - - "GET /stylesheets/biz.css HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.789] [INFO] access - ::1 - - "GET /javascripts/jquery.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.790] [INFO] access - ::1 - - "GET /javascripts/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.792] [INFO] access - ::1 - - "GET /javascripts/pub.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.793] [INFO] access - ::1 - - "GET /javascripts/version.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.795] [INFO] access - ::1 - - "GET /javascripts/ajax.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.796] [INFO] access - ::1 - - "GET /javascripts/fr.routeApp-2.1.js HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.797] [INFO] access - ::1 - - "GET /images/test_main@3x.png HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.815] [ERROR] access - Not Found
+[2016-07-20 13:07:36.816] [INFO] access - ::1 - - "GET /stylesheets/bootstrap.min.css.map HTTP/1.1" 304 - "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.867] [INFO] access - ::1 - - "GET /images/icon_menu.png HTTP/1.1" 304 - "http://localhost:3000/stylesheets/common.css" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:36.916] [ERROR] access - Not Found
+[2016-07-20 13:07:36.916] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:39.101] [INFO] access - ::1 - - "GET /mpp/api/v1.0/test/getTestPage?count=0 HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:39.117] [INFO] access - ::1 - - "GET /mpp/api/v1.0/webs/testpage HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:39.132] [INFO] access - ::1 - - "GET /images/ico1.png HTTP/1.1" 304 - "http://localhost:3000/stylesheets/common.css" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:41.396] [INFO] access - ::1 - - "GET /mpp/api/v1.0/test/getTestPage?count=1 HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-20 13:07:42.281] [INFO] access - ::1 - - "GET /mpp/api/v1.0/test/getTestPage?count=2 HTTP/1.1" 304 - "http://localhost:3000/mpp/api/v1.0/webs/mytest" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"

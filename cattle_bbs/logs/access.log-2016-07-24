@@ -1,0 +1,716 @@
+[2016-07-24 09:03:26.888] [INFO] access - mongodb connect
+[2016-07-24 09:07:02.174] [INFO] access - mongodb connect
+[2016-07-24 09:07:17.606] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/object3 HTTP/1.1" 500 3647 "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-24 09:07:17.671] [INFO] access - ::1 - - "GET /favicon.ico HTTP/1.1" 404 2694 "http://localhost:3000/mpp/api/v1.0/mongod/object3" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-24 09:07:57.557] [INFO] access - mongodb connect
+[2016-07-24 09:08:09.947] [INFO] access - 3
+[2016-07-24 09:08:09.954] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/countQuestionByType HTTP/1.1" 200 1 "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-24 09:08:59.843] [INFO] access - mongodb connect
+[2016-07-24 09:09:09.057] [INFO] access - 3
+[2016-07-24 09:10:02.665] [INFO] access - mongodb connect
+[2016-07-24 09:10:06.152] [INFO] access - 3
+[2016-07-24 09:11:39.378] [INFO] access - mongodb connect
+[2016-07-24 09:11:43.249] [INFO] access - 3
+[2016-07-24 09:12:09.136] [INFO] access - mongodb connect
+[2016-07-24 09:12:11.639] [INFO] access - 3
+[2016-07-24 09:12:30.633] [INFO] access - mongodb connect
+[2016-07-24 09:12:35.160] [INFO] access - 3
+[2016-07-24 09:12:57.072] [INFO] access - mongodb connect
+[2016-07-24 09:12:59.708] [INFO] access - Query {
+  _mongooseOptions: {},
+  mongooseCollection: 
+   NativeCollection {
+     collection: { s: [Object] },
+     opts: { bufferCommands: true, capped: false },
+     name: 'tests',
+     collectionName: 'tests',
+     conn: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        hosts: null,
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        name: 'local',
+        options: [Object],
+        otherDbs: [],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        _listening: false,
+        db: [Object],
+        _events: {},
+        _eventsCount: 0 },
+     queue: [],
+     buffer: false,
+     emitter: 
+      EventEmitter {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined } },
+  model: 
+   { [Function: model]
+     hooks: Kareem { _pres: {}, _posts: {} },
+     base: 
+      Mongoose {
+        connections: [Object],
+        plugins: [],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object] },
+     modelName: 'Test',
+     model: [Function: model],
+     db: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        hosts: null,
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        name: 'local',
+        options: [Object],
+        otherDbs: [],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        _listening: false,
+        db: [Object],
+        _events: {},
+        _eventsCount: 0 },
+     discriminators: undefined,
+     findAllByDocStatic: [Function],
+     schema: 
+      Schema {
+        paths: [Object],
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [Object],
+        _indexes: [],
+        methods: [Object],
+        statics: [Object],
+        tree: [Object],
+        _requiredpaths: [],
+        discriminatorMapping: undefined,
+        _indexedpaths: undefined,
+        query: {},
+        s: [Object],
+        options: [Object] },
+     collection: 
+      NativeCollection {
+        collection: [Object],
+        opts: [Object],
+        name: 'tests',
+        collectionName: 'tests',
+        conn: [Object],
+        queue: [],
+        buffer: false,
+        emitter: [Object] },
+     Query: { [Function] base: [Object] },
+     '$__insertMany': [Function],
+     insertMany: [Function] },
+  schema: 
+   Schema {
+     paths: 
+      { question_id: [Object],
+        question_type: [Object],
+        question_content: [Object],
+        optiones: [Object],
+        correct_option: [Object],
+        anwser: [Object],
+        score: [Object],
+        create_time: [Object],
+        _id: [Object],
+        __v: [Object] },
+     subpaths: {},
+     virtuals: { id: [Object] },
+     singleNestedPaths: {},
+     nested: {},
+     inherits: {},
+     callQueue: [ [Object], [Object], [Object] ],
+     _indexes: [],
+     methods: 
+      { findAllByDoc: [Function],
+        findPartByDoc: [Function],
+        findOneByDoc: [Function],
+        countByDoc: [Function],
+        distinctByDoc: [Function],
+        findByParam: [Function],
+        findByWhere: [Function],
+        findAfter: [Function],
+        deleteRecord: [Function],
+        addRecord: [Function],
+        updateRecord: [Function] },
+     statics: { findAllByDocStatic: [Function] },
+     tree: 
+      { question_id: [Object],
+        question_type: [Object],
+        question_content: [Object],
+        optiones: [Object],
+        correct_option: [Object],
+        anwser: [Object],
+        score: [Object],
+        create_time: [Object],
+        _id: [Object],
+        id: [Object],
+        __v: [Function: Number] },
+     _requiredpaths: [],
+     discriminatorMapping: undefined,
+     _indexedpaths: undefined,
+     query: {},
+     s: { hooks: [Object], kareemHooks: [Object] },
+     options: 
+      { typeKey: 'type',
+        id: true,
+        noVirtualId: false,
+        _id: true,
+        noId: false,
+        validateBeforeSave: true,
+        read: null,
+        shardKey: null,
+        autoIndex: null,
+        minimize: true,
+        discriminatorKey: '__t',
+        versionKey: '__v',
+        capped: false,
+        bufferCommands: true,
+        strict: true,
+        pluralization: true } },
+  op: 'count',
+  options: {},
+  _conditions: {},
+  _fields: undefined,
+  _update: undefined,
+  _path: undefined,
+  _distinct: undefined,
+  _collection: 
+   NodeCollection {
+     collection: 
+      NativeCollection {
+        collection: [Object],
+        opts: [Object],
+        name: 'tests',
+        collectionName: 'tests',
+        conn: [Object],
+        queue: [],
+        buffer: false,
+        emitter: [Object] },
+     collectionName: 'tests' },
+  _traceFunction: undefined,
+  _castError: null,
+  _count: [Function],
+  _execUpdate: [Function],
+  _find: [Function],
+  _findOne: [Function],
+  _findOneAndRemove: [Function],
+  _findOneAndUpdate: [Function] }
+[2016-07-24 09:12:59.734] [INFO] access - 3
+[2016-07-24 09:13:42.103] [INFO] access - mongodb connect
+[2016-07-24 09:13:46.222] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/countQuestionByType HTTP/1.1" 500 3722 "" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+[2016-07-24 09:13:46.225] [INFO] access - 3
+[2016-07-24 09:14:12.382] [INFO] access - mongodb connect
+[2016-07-24 09:14:16.369] [INFO] access - 3
+[2016-07-24 09:14:16.376] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/countQuestionByType HTTP/1.1" 200 26 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 09:16:26.545] [INFO] access - mongodb connect
+[2016-07-24 09:16:32.839] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    anwser: 'A错 金陵为江苏南京的旧称，战国时期楚威王于公元前333年置金陵邑;B对 广陵为战国时期（现）江苏扬州的旧称;C错 建康为江苏南京的旧称，公元265年司马炎建立晋朝，280年灭吴改建业为秣陵属丹杨郡，307年王谢两大族簇拥西晋皇族琅琊王司马睿南渡长江改回建业，并于313年灭西晋建立偏安江左的东晋王朝，为避愍帝司马邺讳，改建邺为建康，此后南朝的宋齐梁陈都在此立都，先后共达三百多年之久，所以南京又称六朝古都;D错 江宁为江苏南京的旧称，从隋唐郡县治所开始，历史上南京多次更名，先后为上元、白下、江宁县、升州、归化、江宁郡等，宋元时期改为集庆路，明初改应天府及南京，清代改江宁府，太平天国改天京，综上南京叫江宁的次数多且时间长;',
+    __v: 0,
+    create_time: 2016-07-23T14:30:38.032Z,
+    score: 1,
+    question_type: 1 },
+  { _id: 57937f8f28dc739f2bdaea65,
+    question_id: '077ea4b0-50e2-11e6-ac3a-8da11d82131e',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    anwser: 'A错 金陵为江苏南京的旧称，战国时期楚威王于公元前333年置金陵邑;B对 广陵为战国时期（现）江苏扬州的旧称;C错 建康为江苏南京的旧称，公元265年司马炎建立晋朝，280年灭吴改建业为秣陵属丹杨郡，307年王谢两大族簇拥西晋皇族琅琊王司马睿南渡长江改回建业，并于313年灭西晋建立偏安江左的东晋王朝，为避愍帝司马邺讳，改建邺为建康，此后南朝的宋齐梁陈都在此立都，先后共达三百多年之久，所以南京又称六朝古都;D错 江宁为江苏南京的旧称，从隋唐郡县治所开始，历史上南京多次更名，先后为上元、白下、江宁县、升州、归化、江宁郡等，宋元时期改为集庆路，明初改应天府及南京，清代改江宁府，太平天国改天京，综上南京叫江宁的次数多且时间长;',
+    __v: 0,
+    create_time: 2016-07-23T14:30:39.996Z,
+    score: 1,
+    question_type: 1 },
+  { _id: 57938255118561682c81aee8,
+    question_id: 'ae3e1000-50e3-11e6-9fa8-5d1300df1652',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    __v: 0,
+    create_time: 2016-07-23T14:42:29.248Z,
+    score: 1,
+    question_type: 1 } ]
+[2016-07-24 09:16:32.857] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByType HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 09:16:48.520] [INFO] access - mongodb connect
+[2016-07-24 09:16:51.126] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    anwser: 'A错 金陵为江苏南京的旧称，战国时期楚威王于公元前333年置金陵邑;B对 广陵为战国时期（现）江苏扬州的旧称;C错 建康为江苏南京的旧称，公元265年司马炎建立晋朝，280年灭吴改建业为秣陵属丹杨郡，307年王谢两大族簇拥西晋皇族琅琊王司马睿南渡长江改回建业，并于313年灭西晋建立偏安江左的东晋王朝，为避愍帝司马邺讳，改建邺为建康，此后南朝的宋齐梁陈都在此立都，先后共达三百多年之久，所以南京又称六朝古都;D错 江宁为江苏南京的旧称，从隋唐郡县治所开始，历史上南京多次更名，先后为上元、白下、江宁县、升州、归化、江宁郡等，宋元时期改为集庆路，明初改应天府及南京，清代改江宁府，太平天国改天京，综上南京叫江宁的次数多且时间长;',
+    __v: 0,
+    create_time: 2016-07-23T14:30:38.032Z,
+    score: 1,
+    question_type: 1 },
+  { _id: 57937f8f28dc739f2bdaea65,
+    question_id: '077ea4b0-50e2-11e6-ac3a-8da11d82131e',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    anwser: 'A错 金陵为江苏南京的旧称，战国时期楚威王于公元前333年置金陵邑;B对 广陵为战国时期（现）江苏扬州的旧称;C错 建康为江苏南京的旧称，公元265年司马炎建立晋朝，280年灭吴改建业为秣陵属丹杨郡，307年王谢两大族簇拥西晋皇族琅琊王司马睿南渡长江改回建业，并于313年灭西晋建立偏安江左的东晋王朝，为避愍帝司马邺讳，改建邺为建康，此后南朝的宋齐梁陈都在此立都，先后共达三百多年之久，所以南京又称六朝古都;D错 江宁为江苏南京的旧称，从隋唐郡县治所开始，历史上南京多次更名，先后为上元、白下、江宁县、升州、归化、江宁郡等，宋元时期改为集庆路，明初改应天府及南京，清代改江宁府，太平天国改天京，综上南京叫江宁的次数多且时间长;',
+    __v: 0,
+    create_time: 2016-07-23T14:30:39.996Z,
+    score: 1,
+    question_type: 1 },
+  { _id: 57938255118561682c81aee8,
+    question_id: 'ae3e1000-50e3-11e6-9fa8-5d1300df1652',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    __v: 0,
+    create_time: 2016-07-23T14:42:29.248Z,
+    score: 1,
+    question_type: 1 } ]
+[2016-07-24 09:16:51.148] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByType HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 09:19:50.558] [INFO] access - mongodb connect
+[2016-07-24 09:20:04.009] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/distinctQuestionByType HTTP/1.1" 500 3833 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 09:20:26.603] [INFO] access - mongodb connect
+[2016-07-24 09:20:28.939] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/distinctQuestionByType HTTP/1.1" 500 3833 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 09:25:57.193] [INFO] access - mongodb connect
+[2016-07-24 09:27:19.318] [INFO] access - mongodb connect
+[2016-07-24 09:27:23.482] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/distinctQuestionByType HTTP/1.1" 500 3833 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 09:33:21.294] [INFO] access - mongodb connect
+[2016-07-24 09:33:25.318] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/distinctQuestionByType HTTP/1.1" 500 3833 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 09:57:43.192] [INFO] access - mongodb connect
+[2016-07-24 09:57:55.307] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3725 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 09:58:08.291] [INFO] access - mongodb connect
+[2016-07-24 09:58:13.117] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3723 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 09:59:13.175] [INFO] access - mongodb connect
+[2016-07-24 09:59:17.930] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3719 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:01:42.886] [INFO] access - mongodb connect
+[2016-07-24 10:01:47.095] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    anwser: 'A错 金陵为江苏南京的旧称，战国时期楚威王于公元前333年置金陵邑;B对 广陵为战国时期（现）江苏扬州的旧称;C错 建康为江苏南京的旧称，公元265年司马炎建立晋朝，280年灭吴改建业为秣陵属丹杨郡，307年王谢两大族簇拥西晋皇族琅琊王司马睿南渡长江改回建业，并于313年灭西晋建立偏安江左的东晋王朝，为避愍帝司马邺讳，改建邺为建康，此后南朝的宋齐梁陈都在此立都，先后共达三百多年之久，所以南京又称六朝古都;D错 江宁为江苏南京的旧称，从隋唐郡县治所开始，历史上南京多次更名，先后为上元、白下、江宁县、升州、归化、江宁郡等，宋元时期改为集庆路，明初改应天府及南京，清代改江宁府，太平天国改天京，综上南京叫江宁的次数多且时间长;',
+    __v: 0,
+    create_time: 2016-07-23T14:30:38.032Z,
+    score: 1,
+    question_type: 1 },
+  { _id: 57937f8f28dc739f2bdaea65,
+    question_id: '077ea4b0-50e2-11e6-ac3a-8da11d82131e',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    anwser: 'A错 金陵为江苏南京的旧称，战国时期楚威王于公元前333年置金陵邑;B对 广陵为战国时期（现）江苏扬州的旧称;C错 建康为江苏南京的旧称，公元265年司马炎建立晋朝，280年灭吴改建业为秣陵属丹杨郡，307年王谢两大族簇拥西晋皇族琅琊王司马睿南渡长江改回建业，并于313年灭西晋建立偏安江左的东晋王朝，为避愍帝司马邺讳，改建邺为建康，此后南朝的宋齐梁陈都在此立都，先后共达三百多年之久，所以南京又称六朝古都;D错 江宁为江苏南京的旧称，从隋唐郡县治所开始，历史上南京多次更名，先后为上元、白下、江宁县、升州、归化、江宁郡等，宋元时期改为集庆路，明初改应天府及南京，清代改江宁府，太平天国改天京，综上南京叫江宁的次数多且时间长;',
+    __v: 0,
+    create_time: 2016-07-23T14:30:39.996Z,
+    score: 1,
+    question_type: 1 },
+  { _id: 57938255118561682c81aee8,
+    question_id: 'ae3e1000-50e3-11e6-9fa8-5d1300df1652',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    __v: 0,
+    create_time: 2016-07-23T14:42:29.248Z,
+    score: 1,
+    question_type: 1 } ]
+[2016-07-24 10:01:47.115] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 2737 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:02:02.956] [INFO] access - mongodb connect
+[2016-07-24 10:02:05.786] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    anwser: 'A错 金陵为江苏南京的旧称，战国时期楚威王于公元前333年置金陵邑;B对 广陵为战国时期（现）江苏扬州的旧称;C错 建康为江苏南京的旧称，公元265年司马炎建立晋朝，280年灭吴改建业为秣陵属丹杨郡，307年王谢两大族簇拥西晋皇族琅琊王司马睿南渡长江改回建业，并于313年灭西晋建立偏安江左的东晋王朝，为避愍帝司马邺讳，改建邺为建康，此后南朝的宋齐梁陈都在此立都，先后共达三百多年之久，所以南京又称六朝古都;D错 江宁为江苏南京的旧称，从隋唐郡县治所开始，历史上南京多次更名，先后为上元、白下、江宁县、升州、归化、江宁郡等，宋元时期改为集庆路，明初改应天府及南京，清代改江宁府，太平天国改天京，综上南京叫江宁的次数多且时间长;',
+    __v: 0,
+    create_time: 2016-07-23T14:30:38.032Z,
+    score: 1,
+    question_type: 1 } ]
+[2016-07-24 10:02:05.803] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 1212 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:04:23.414] [INFO] access - mongodb connect
+[2016-07-24 10:04:26.760] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3701 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:04:37.669] [INFO] access - mongodb connect
+[2016-07-24 10:04:40.585] [INFO] access - []
+[2016-07-24 10:04:40.592] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 2 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:04:49.091] [INFO] access - mongodb connect
+[2016-07-24 10:04:51.828] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    anwser: 'A错 金陵为江苏南京的旧称，战国时期楚威王于公元前333年置金陵邑;B对 广陵为战国时期（现）江苏扬州的旧称;C错 建康为江苏南京的旧称，公元265年司马炎建立晋朝，280年灭吴改建业为秣陵属丹杨郡，307年王谢两大族簇拥西晋皇族琅琊王司马睿南渡长江改回建业，并于313年灭西晋建立偏安江左的东晋王朝，为避愍帝司马邺讳，改建邺为建康，此后南朝的宋齐梁陈都在此立都，先后共达三百多年之久，所以南京又称六朝古都;D错 江宁为江苏南京的旧称，从隋唐郡县治所开始，历史上南京多次更名，先后为上元、白下、江宁县、升州、归化、江宁郡等，宋元时期改为集庆路，明初改应天府及南京，清代改江宁府，太平天国改天京，综上南京叫江宁的次数多且时间长;',
+    __v: 0,
+    create_time: 2016-07-23T14:30:38.032Z,
+    score: 1,
+    question_type: 1 } ]
+[2016-07-24 10:04:51.845] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 1212 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:05:24.646] [INFO] access - mongodb connect
+[2016-07-24 10:06:00.074] [INFO] access - mongodb connect
+[2016-07-24 10:06:07.872] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    anwser: 'A错 金陵为江苏南京的旧称，战国时期楚威王于公元前333年置金陵邑;B对 广陵为战国时期（现）江苏扬州的旧称;C错 建康为江苏南京的旧称，公元265年司马炎建立晋朝，280年灭吴改建业为秣陵属丹杨郡，307年王谢两大族簇拥西晋皇族琅琊王司马睿南渡长江改回建业，并于313年灭西晋建立偏安江左的东晋王朝，为避愍帝司马邺讳，改建邺为建康，此后南朝的宋齐梁陈都在此立都，先后共达三百多年之久，所以南京又称六朝古都;D错 江宁为江苏南京的旧称，从隋唐郡县治所开始，历史上南京多次更名，先后为上元、白下、江宁县、升州、归化、江宁郡等，宋元时期改为集庆路，明初改应天府及南京，清代改江宁府，太平天国改天京，综上南京叫江宁的次数多且时间长;',
+    __v: 0,
+    create_time: 2016-07-23T14:30:38.032Z,
+    score: 1,
+    question_type: 1 } ]
+[2016-07-24 10:06:07.889] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:06:55.787] [INFO] access - mongodb connect
+[2016-07-24 10:06:59.252] [INFO] access - [ { _id: 57938255118561682c81aee8,
+    question_id: 'ae3e1000-50e3-11e6-9fa8-5d1300df1652',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'C',
+    __v: 0,
+    create_time: 2016-07-23T14:42:29.248Z,
+    score: 1,
+    question_type: 1 } ]
+[2016-07-24 10:06:59.271] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 315 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:10:21.711] [INFO] access - mongodb connect
+[2016-07-24 10:10:24.376] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3823 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:10:41.390] [INFO] access - mongodb connect
+[2016-07-24 10:10:44.034] [INFO] access - [ { _id: 57938255118561682c81aee8, correct_option: 'C' } ]
+[2016-07-24 10:10:44.051] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 57 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:10:57.412] [INFO] access - mongodb connect
+[2016-07-24 10:11:00.337] [INFO] access - [ { _id: 57938255118561682c81aee8,
+    correct_option: 'C',
+    question_type: 1 } ]
+[2016-07-24 10:11:00.354] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 75 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:11:20.516] [INFO] access - mongodb connect
+[2016-07-24 10:11:23.651] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3843 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:11:50.210] [INFO] access - mongodb connect
+[2016-07-24 10:11:52.647] [INFO] access - [ { _id: 57938255118561682c81aee8,
+    correct_option: 'C',
+    question_type: 1 } ]
+[2016-07-24 10:11:52.664] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 75 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:13:19.094] [INFO] access - mongodb connect
+[2016-07-24 10:13:21.565] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3843 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:14:34.104] [INFO] access - mongodb connect
+[2016-07-24 10:14:36.688] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3887 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:15:05.055] [INFO] access - mongodb connect
+[2016-07-24 10:15:07.959] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3927 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:15:27.789] [INFO] access - mongodb connect
+[2016-07-24 10:15:34.796] [INFO] access - mongodb connect
+[2016-07-24 10:15:37.659] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3883 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:16:02.527] [INFO] access - mongodb connect
+[2016-07-24 10:16:06.195] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3843 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:16:15.282] [INFO] access - mongodb connect
+[2016-07-24 10:16:17.366] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3803 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:16:25.622] [INFO] access - mongodb connect
+[2016-07-24 10:16:29.435] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3779 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:17:42.335] [INFO] access - mongodb connect
+[2016-07-24 10:17:44.429] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3779 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:17:54.354] [INFO] access - mongodb connect
+[2016-07-24 10:17:56.360] [ERROR] access - { MongoError: error processing query: ns=local.tests limit=1 skip=20Tree: correct_option $in [ "B" ]
+Sort: {}
+Proj: {}
+ planner returned error: bad hint
+    at Function.MongoError.create (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/cursor.js:200:36)
+    at Callbacks.emit (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at .messageHandler (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:177:18)
+    at Socket.Readable.push (_stream_readable.js:135:10)
+    at TCP.onread (net.js:542:20)
+  name: 'MongoError',
+  message: 'error processing query: ns=local.tests limit=1 skip=20Tree: correct_option $in [ "B" ]\nSort: {}\nProj: {}\n planner returned error: bad hint',
+  waitedMS: 0,
+  ok: 0,
+  errmsg: 'error processing query: ns=local.tests limit=1 skip=20Tree: correct_option $in [ "B" ]\nSort: {}\nProj: {}\n planner returned error: bad hint',
+  code: 2 }
+[2016-07-24 10:17:56.378] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 361 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:18:35.794] [INFO] access - mongodb connect
+[2016-07-24 10:18:38.682] [ERROR] access - { MongoError: error processing query: ns=local.tests limit=1 skip=20Tree: $and
+    question_type == 1
+    correct_option $in [ "B" ]
+Sort: {}
+Proj: { question_id: 1 }
+ planner returned error: bad hint
+    at Function.MongoError.create (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/cursor.js:200:36)
+    at Callbacks.emit (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at .messageHandler (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:177:18)
+    at Socket.Readable.push (_stream_readable.js:135:10)
+    at TCP.onread (net.js:542:20)
+  name: 'MongoError',
+  message: 'error processing query: ns=local.tests limit=1 skip=20Tree: $and\n    question_type == 1\n    correct_option $in [ "B" ]\nSort: {}\nProj: { question_id: 1 }\n planner returned error: bad hint',
+  waitedMS: 0,
+  ok: 0,
+  errmsg: 'error processing query: ns=local.tests limit=1 skip=20Tree: $and\n    question_type == 1\n    correct_option $in [ "B" ]\nSort: {}\nProj: { question_id: 1 }\n planner returned error: bad hint',
+  code: 2 }
+[2016-07-24 10:18:38.699] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 461 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:18:54.260] [INFO] access - mongodb connect
+[2016-07-24 10:18:56.423] [ERROR] access - { MongoError: error processing query: ns=local.tests limit=1Tree: $and
+    question_type == 1
+    correct_option $in [ "B" ]
+Sort: {}
+Proj: { question_id: 1 }
+ planner returned error: bad hint
+    at Function.MongoError.create (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/cursor.js:200:36)
+    at Callbacks.emit (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at .messageHandler (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:177:18)
+    at Socket.Readable.push (_stream_readable.js:135:10)
+    at TCP.onread (net.js:542:20)
+  name: 'MongoError',
+  message: 'error processing query: ns=local.tests limit=1Tree: $and\n    question_type == 1\n    correct_option $in [ "B" ]\nSort: {}\nProj: { question_id: 1 }\n planner returned error: bad hint',
+  waitedMS: 0,
+  ok: 0,
+  errmsg: 'error processing query: ns=local.tests limit=1Tree: $and\n    question_type == 1\n    correct_option $in [ "B" ]\nSort: {}\nProj: { question_id: 1 }\n planner returned error: bad hint',
+  code: 2 }
+[2016-07-24 10:18:56.441] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 445 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:19:23.619] [INFO] access - mongodb connect
+[2016-07-24 10:19:25.701] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e' } ]
+[2016-07-24 10:19:25.720] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 89 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:22:00.214] [INFO] access - mongodb connect
+[2016-07-24 10:22:02.836] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e' } ]
+[2016-07-24 10:22:02.852] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:22:11.349] [INFO] access - mongodb connect
+[2016-07-24 10:22:13.418] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e' } ]
+[2016-07-24 10:22:13.434] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:22:42.684] [INFO] access - mongodb connect
+[2016-07-24 10:22:44.628] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e',
+    correct_option: 'B' } ]
+[2016-07-24 10:22:44.646] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 110 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:22:57.041] [INFO] access - mongodb connect
+[2016-07-24 10:22:59.410] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e',
+    correct_option: 'B' } ]
+[2016-07-24 10:22:59.427] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:23:08.514] [INFO] access - mongodb connect
+[2016-07-24 10:23:10.543] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e',
+    correct_option: 'B' } ]
+[2016-07-24 10:23:10.563] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:24:05.694] [INFO] access - mongodb connect
+[2016-07-24 10:24:09.733] [INFO] access - [ { _id: 57938255118561682c81aee8,
+    question_id: 'ae3e1000-50e3-11e6-9fa8-5d1300df1652',
+    correct_option: 'C' } ]
+[2016-07-24 10:24:09.752] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 110 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:27:24.310] [INFO] access - mongodb connect
+[2016-07-24 10:27:26.705] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3805 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:27:38.068] [INFO] access - mongodb connect
+[2016-07-24 10:27:40.566] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3829 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:27:47.910] [INFO] access - mongodb connect
+[2016-07-24 10:27:51.412] [INFO] access - [ 'C' ]
+[2016-07-24 10:27:51.420] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 5 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:28:34.719] [INFO] access - mongodb connect
+[2016-07-24 10:28:36.728] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3805 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:29:35.743] [INFO] access - mongodb connect
+[2016-07-24 10:29:39.527] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3853 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:29:50.166] [INFO] access - mongodb connect
+[2016-07-24 10:29:53.198] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3827 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:29:59.863] [INFO] access - mongodb connect
+[2016-07-24 10:30:02.034] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e',
+    correct_option: 'B' },
+  { _id: 57937f8f28dc739f2bdaea65,
+    question_id: '077ea4b0-50e2-11e6-ac3a-8da11d82131e',
+    correct_option: 'B' } ]
+[2016-07-24 10:30:02.051] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 200 219 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:30:26.798] [INFO] access - mongodb connect
+[2016-07-24 10:30:28.942] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3827 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:31:07.039] [INFO] access - mongodb connect
+[2016-07-24 10:31:09.867] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByParam HTTP/1.1" 500 3823 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:35:46.285] [INFO] access - mongodb connect
+[2016-07-24 10:35:51.229] [ERROR] access - Error: Must have a string or function for $where
+    at cast (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongoose/lib/cast.js:39:15)
+    at Query.cast (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongoose/lib/query.js:2638:10)
+    at Query.find (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongoose/lib/query.js:1130:10)
+    at /Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongoose/lib/query.js:2215:21
+    at new Promise.ES6 (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongoose/lib/promise.js:45:3)
+    at Query.exec (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongoose/lib/query.js:2208:10)
+    at model._Test.methods.findByWhere (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/mongodb/test_schema.js:51:50)
+    at Object.module.exports.findQuestionByWhere (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/api/m_test.js:192:31)
+    at /Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/routes/mongod.js:58:11
+    at Layer.handle [as handle_request] (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:176:3)
+    at router (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:312:13)
+    at /Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:271:10)
+    at /Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:618:15
+    at next (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:176:3)
+    at router (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/express/lib/router/layer.js:95:5)
+[2016-07-24 10:35:51.239] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 200 2 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:36:28.347] [INFO] access - mongodb connect
+[2016-07-24 10:36:30.607] [ERROR] access - { MongoError: ReferenceError: correct_option is not defined :
+_funcs1@:1:24
+
+    at Function.MongoError.create (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/cursor.js:200:36)
+    at Callbacks.emit (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at .messageHandler (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:177:18)
+    at Socket.Readable.push (_stream_readable.js:135:10)
+    at TCP.onread (net.js:542:20)
+  name: 'MongoError',
+  message: 'ReferenceError: correct_option is not defined :\n_funcs1@:1:24\n',
+  ok: 0,
+  errmsg: 'ReferenceError: correct_option is not defined :\n_funcs1@:1:24\n',
+  code: 139 }
+[2016-07-24 10:36:30.624] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 200 192 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:37:10.640] [INFO] access - mongodb connect
+[2016-07-24 10:37:12.764] [ERROR] access - { MongoError: ReferenceError: B is not defined :
+_funcs2@:1:24
+
+    at Function.MongoError.create (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/cursor.js:200:36)
+    at Callbacks.emit (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at .messageHandler (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/Users/mikebian/Documents/code/nodework/webapp/trunk/cattle_bbs/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:177:18)
+    at Socket.Readable.push (_stream_readable.js:135:10)
+    at TCP.onread (net.js:542:20)
+  name: 'MongoError',
+  message: 'ReferenceError: B is not defined :\n_funcs2@:1:24\n',
+  ok: 0,
+  errmsg: 'ReferenceError: B is not defined :\n_funcs2@:1:24\n',
+  code: 139 }
+[2016-07-24 10:37:12.782] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 200 166 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:37:30.022] [INFO] access - mongodb connect
+[2016-07-24 10:37:32.913] [INFO] access - [ { _id: 57937f8e28dc739f2bdaea63,
+    question_id: '06531d00-50e2-11e6-ac3a-8da11d82131e',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    anwser: 'A错 金陵为江苏南京的旧称，战国时期楚威王于公元前333年置金陵邑;B对 广陵为战国时期（现）江苏扬州的旧称;C错 建康为江苏南京的旧称，公元265年司马炎建立晋朝，280年灭吴改建业为秣陵属丹杨郡，307年王谢两大族簇拥西晋皇族琅琊王司马睿南渡长江改回建业，并于313年灭西晋建立偏安江左的东晋王朝，为避愍帝司马邺讳，改建邺为建康，此后南朝的宋齐梁陈都在此立都，先后共达三百多年之久，所以南京又称六朝古都;D错 江宁为江苏南京的旧称，从隋唐郡县治所开始，历史上南京多次更名，先后为上元、白下、江宁县、升州、归化、江宁郡等，宋元时期改为集庆路，明初改应天府及南京，清代改江宁府，太平天国改天京，综上南京叫江宁的次数多且时间长;',
+    __v: 0,
+    create_time: 2016-07-23T14:30:38.032Z,
+    score: 1,
+    question_type: 1 },
+  { _id: 57937f8f28dc739f2bdaea65,
+    question_id: '077ea4b0-50e2-11e6-ac3a-8da11d82131e',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'B',
+    anwser: 'A错 金陵为江苏南京的旧称，战国时期楚威王于公元前333年置金陵邑;B对 广陵为战国时期（现）江苏扬州的旧称;C错 建康为江苏南京的旧称，公元265年司马炎建立晋朝，280年灭吴改建业为秣陵属丹杨郡，307年王谢两大族簇拥西晋皇族琅琊王司马睿南渡长江改回建业，并于313年灭西晋建立偏安江左的东晋王朝，为避愍帝司马邺讳，改建邺为建康，此后南朝的宋齐梁陈都在此立都，先后共达三百多年之久，所以南京又称六朝古都;D错 江宁为江苏南京的旧称，从隋唐郡县治所开始，历史上南京多次更名，先后为上元、白下、江宁县、升州、归化、江宁郡等，宋元时期改为集庆路，明初改应天府及南京，清代改江宁府，太平天国改天京，综上南京叫江宁的次数多且时间长;',
+    __v: 0,
+    create_time: 2016-07-23T14:30:39.996Z,
+    score: 1,
+    question_type: 1 } ]
+[2016-07-24 10:37:32.931] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 200 2423 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:37:40.199] [INFO] access - mongodb connect
+[2016-07-24 10:37:43.163] [INFO] access - [ { _id: 57938255118561682c81aee8,
+    question_id: 'ae3e1000-50e3-11e6-9fa8-5d1300df1652',
+    question_content: '以下古代城市名不是江苏南京的曾用名的为',
+    optiones: 'A 金陵;B 广陵;C 建康;D 江宁',
+    correct_option: 'C',
+    __v: 0,
+    create_time: 2016-07-23T14:42:29.248Z,
+    score: 1,
+    question_type: 1 } ]
+[2016-07-24 10:37:43.180] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 200 315 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:38:09.254] [INFO] access - mongodb connect
+[2016-07-24 10:38:11.367] [INFO] access - [ { _id: 57938255118561682c81aee8,
+    question_id: 'ae3e1000-50e3-11e6-9fa8-5d1300df1652',
+    correct_option: 'C' } ]
+[2016-07-24 10:38:11.385] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 200 110 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:44:37.729] [INFO] access - mongodb connect
+[2016-07-24 10:44:40.964] [INFO] access - undefined
+[2016-07-24 10:44:40.970] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:45:07.670] [INFO] access - mongodb connect
+[2016-07-24 10:45:46.373] [INFO] access - mongodb connect
+[2016-07-24 10:46:20.460] [INFO] access - mongodb connect
+[2016-07-24 10:46:55.645] [INFO] access - mongodb connect
+[2016-07-24 10:46:58.938] [INFO] access - [ { _id: 57938255118561682c81aee8,
+    question_id: 'ae3e1000-50e3-11e6-9fa8-5d1300df1652',
+    correct_option: 'C' } ]
+[2016-07-24 10:46:58.955] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:47:39.809] [INFO] access - mongodb connect
+[2016-07-24 10:47:41.780] [INFO] access - { _id: 57938255118561682c81aee8,
+  question_id: 'ae3e1000-50e3-11e6-9fa8-5d1300df1652',
+  correct_option: 'C' }
+[2016-07-24 10:47:41.797] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 200 108 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:48:10.842] [INFO] access - mongodb connect
+[2016-07-24 10:48:13.375] [INFO] access - ae3e1000-50e3-11e6-9fa8-5d1300df1652
+[2016-07-24 10:48:13.382] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:49:52.046] [INFO] access - mongodb connect
+[2016-07-24 10:49:54.435] [INFO] access - ae3e1000-50e3-11e6-9fa8-5d1300df1652
+[2016-07-24 10:49:54.442] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:53:42.441] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/updateQuestionByType HTTP/1.1" 200 23 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:53:56.335] [INFO] access - mongodb connect
+[2016-07-24 10:53:58.913] [INFO] access - numberAffected= [object Object]
+[2016-07-24 10:53:58.913] [INFO] access - raw= undefined
+[2016-07-24 10:53:58.919] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/updateQuestionByType HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 10:58:38.084] [INFO] access - mongodb connect
+[2016-07-24 10:58:41.105] [INFO] access - numberAffected= undefined
+[2016-07-24 10:58:41.105] [INFO] access - raw= undefined
+[2016-07-24 10:58:41.112] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/updateQuestionByType HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 11:01:10.529] [INFO] access - mongodb connect
+[2016-07-24 11:01:13.085] [INFO] access - numberAffected= {"ok":1,"nModified":0,"n":1}
+[2016-07-24 11:01:13.085] [INFO] access - raw= undefined
+[2016-07-24 11:01:13.092] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/updateQuestionByType HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 11:03:59.371] [INFO] access - numberAffected= {"ok":1,"nModified":0,"n":1}
+[2016-07-24 11:03:59.372] [INFO] access - raw= undefined
+[2016-07-24 11:03:59.373] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/updateQuestionByType HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 11:04:04.829] [INFO] access - mongodb connect
+[2016-07-24 11:04:06.384] [INFO] access - numberAffected= {"ok":1,"nModified":0,"n":1}
+[2016-07-24 11:04:16.752] [INFO] access - mongodb connect
+[2016-07-24 11:04:18.960] [INFO] access - numberAffected= {"ok":1,"nModified":0,"n":1}
+[2016-07-24 11:04:18.966] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/updateQuestionByType HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 11:05:31.991] [INFO] access - mongodb connect
+[2016-07-24 11:06:02.271] [INFO] access - mongodb connect
+[2016-07-24 11:06:10.136] [INFO] access - numberAffected= {"ok":1,"nModified":1,"n":1}
+[2016-07-24 11:06:10.142] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/updateQuestionByQid HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 11:07:34.628] [INFO] access - mongodb connect
+[2016-07-24 11:07:46.581] [INFO] access - numberAffected= {"ok":1,"nModified":1,"n":1}
+[2016-07-24 11:07:46.587] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/updateQuestionByType HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 11:08:37.722] [INFO] access - mongodb connect
+[2016-07-24 11:08:40.485] [INFO] access - numberAffected= undefined
+[2016-07-24 11:08:40.492] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/updateQuestionByType HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 11:08:53.961] [INFO] access - mongodb connect
+[2016-07-24 11:08:55.592] [INFO] access - numberAffected= 0
+[2016-07-24 11:08:55.599] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/updateQuestionByType HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+[2016-07-24 11:12:41.751] [INFO] access - mongodb connect
+[2016-07-24 11:12:44.204] [INFO] access - ae3e1000-50e3-11e6-9fa8-5d1300df1652
+[2016-07-24 11:12:44.210] [INFO] access - ::1 - - "GET /mpp/api/v1.0/mongod/findByWhere HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"

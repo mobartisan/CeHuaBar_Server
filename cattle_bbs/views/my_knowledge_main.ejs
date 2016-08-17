@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title><%= title %></title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link href="/stylesheets/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="/stylesheets/font-awesome.min.css" rel="stylesheet">
+    <link href="/stylesheets/common.css" rel="stylesheet">
+    <link href="/stylesheets/biz.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/javascripts/fr.routeApp-2.1.js"></script>
+    <style>
+    </style>
+</head>
+
+<body style="background-color:#fff;">
+<header class="header">
+    <span class="colfff font16 span">知识库</span>
+    <i class="icoAll icoMenu fr-back"></i>
+    <i class="icoAll icoScanCon fr-scan"></i>
+    <span class="headHtmlWap"/>
+</header>
+
+<div id="wappperAll">
+    <div class="fr-contain" fr-route="0">
+        <title>知识库</title>
+        <div class="hearHtml" style="display:none">
+            <!--<a href="javascript:void(0)" class=" icoAll icoCon bjdz_addAddress top10" onclick=""></a>-->
+        </div>
+        <div class="rep_content">
+            <div class="search_box">
+                <input type="text" class="search_control" placeholder="设备编码">
+                <button type="button" class="glyphicon glyphicon-search btn_search"
+                        fr-href="/mpp/api/v1.0/webs/myknowledgesearch"></button>
+            </div>
+            <img src="/images/repository.png"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="/javascripts/pub.js"></script>
+<script type="text/javascript" src="/javascripts/version.js"></script>
+<script type="text/javascript" src="/javascripts/ajax.js"></script>
+<script>
+    console.log("init")
+    $(".fr-contain").css({"min-height": $(window).height()})
+    $(".jfRouteBtn").frRoute()
+    $(".btn_search").bind('touchstart', function (e) {
+        var keyword = $(".search_control").val();
+        knowledgeAjaxGet.search(keyword)
+    })
+</script>
+
+

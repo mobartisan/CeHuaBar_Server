@@ -1,0 +1,244 @@
+{
+  "t_user": {
+    "uid": "String",
+    "email": "String",
+    "username": "String",
+    "salt": "String",
+    "password": "String",
+    "create_date": "Date"
+  },
+  "t_user_log": {
+    "uid": "String",
+    "header": "String",
+    "username": "String",
+    "remoteAddress": "String",
+    "create_date": "Date"
+  },
+  "t_test": {
+    "question_id": {
+      "type": "String",
+      "index": true
+    },
+    "question_type": {
+      "type": "Number",
+      "default": 0
+    },
+    "question_content": {
+      "type": "String"
+    },
+    "optiones": {
+      "type": "String"
+    },
+    "correct_option": {
+      "type": "String"
+    },
+    "anwser": {
+      "type": "String"
+    },
+    "score": {
+      "type": "Number",
+      "default": 1
+    },
+    "create_time": {
+      "type": "Date",
+      "default": "Date.now"
+    }
+  },
+  "TT_User_Project_Binding": {
+    "user_id": {
+      "type": "String",
+      "index": true
+    },
+    "project_id": {
+      "type": "String"
+    },
+    "user_type": {
+      "type": "String"
+    },
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_user_id": "String",
+    "last_edit_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "last_edit_user_id": "String"
+  },
+  "TT_Project": {
+    "project_id": {
+      "type": "String",
+      "index": true
+    },
+    "name": "String",
+    "description": "String",
+    "is_private": {
+      "type": "Boolean",
+      "default": false
+    },
+    "current_state": {
+      "type": "Number",
+      "default": 0
+    },
+    "is_allow_delete": {
+      "type": "Boolean",
+      "default": false
+    },
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_user_id": "String",
+    "last_edit_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "last_edit_user_id": "String"
+  },
+  "TT_Project_Members": {
+    "project_members_id": {
+      "type": "String",
+      "index": true
+    },
+    "project_id": "String",
+    "user_id": "String",
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_user_id": "String",
+    "last_edit_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "last_edit_user_id": "String"
+  },
+  "TT_Discuss": {
+    "discuss_id": {
+      "type": "String",
+      "index": true
+    },
+    "project_id": "String",
+    "discuss_type": {
+      "type": "Number",
+      "default": 0
+    },
+    "image_url": "String",
+    "content": "String",
+    "current_state": "String",
+    "is_allow_comment": {
+      "type": "Boolean",
+      "default": false
+    },
+    "is_allow_delete": {
+      "type": "Boolean",
+      "default": false
+    },
+    "create_date": "Date",
+    "create_user_id": "String",
+    "last_edit_date": "Date",
+    "last_edit_user_id": "String"
+  },
+  "TT_Discuss_Result": {
+    "discuss_result_id": {
+      "type": "String",
+      "index": true
+    },
+    "discuss_id": "String",
+    "discuss_result": "String",
+    "discuss_result_description": "String"
+  },
+  "TT_Comment": {
+    "comment_id": {
+      "type": "String",
+      "index": true
+    },
+    "discuss_id": "String",
+    "content": "String",
+    "image_url": "String",
+    "is_allow_delete": {
+      "type": "Boolean",
+      "default": false
+    },
+    "create_date": "Date",
+    "create_user_id": "String",
+    "last_edit_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "last_edit_user_id": "String"
+  },
+  "TT_User": {
+    "user_id": {
+      "type": "String",
+      "index": true
+    },
+    "password": "String",
+    "name": "String",
+    "nick_name": "String",
+    "wx_account": "String",
+    "phone": "String",
+    "head_img_url": "String",
+    "os_type": "String",
+    "os_description": "String",
+    "device_identify": "String",
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_user_id": "String",
+    "last_edit_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "last_edit_user_id": "String"
+  },
+  "TT_Notification": {
+    "notifiction_id": {
+      "type": "String",
+      "index": true
+    },
+    "is_read": {
+      "type": "Boolean",
+      "default": false
+    },
+    "content": "String",
+    "notifiction_id": "String",
+    "type": "Number",
+    "is_removed": {
+      "type": "Boolean",
+      "default": false
+    },
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_user_id": "String",
+    "last_edit_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "last_edit_user_id": "String"
+  },
+  "TT_Attachment": {
+    "attachment_id": {
+      "type": "String",
+      "index": true
+    },
+    "current_item_id": {
+      "type": "String",
+      "index": true
+    },
+    "attachment_url": "String",
+    "attachment_content": "String"
+  },
+  "TT_At_Members": {
+    "at_members_id": {
+      "type": "String",
+      "index": true
+    },
+    "current_item_id": "String",
+    "user_id": "String"
+  }
+}
