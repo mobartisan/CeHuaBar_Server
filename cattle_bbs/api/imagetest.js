@@ -9,6 +9,7 @@ easyimg.info('./upload/meetingattachs/14cc665c-9188-4263-bc9f-b9d3ad030cb2.jpg')
         while (320*480*i*i<file.width*file.height){
             i++;
         }
+
         console.log(--i);
         var width=file.width/i;
         var height=file.height/i;
