@@ -1,0 +1,26 @@
+{
+  "apps": [
+    {
+      "name": "bbs",
+      "script": "bin/www",
+      "watch": "../",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "env": {
+        "COMMON_VARIABLE": "true"
+      },
+      "nv_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ],
+  "deploy": {
+    "production": {
+      "user": "mikebian",
+      "host": "127.0.0.1",
+      "ref": "origin/master",
+      "repo": "git@github.com:mobartisan/CeHuaBar_Server.git",
+      "path": "/Users/mikebian/Documents/bak/production",
+      "post-deploy": "npm install ; pm2 startOrRestart ecosystem.json --env production"
+    }
+  }
+}

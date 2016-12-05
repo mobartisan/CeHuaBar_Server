@@ -1,0 +1,289 @@
+{
+  "D_USER": {
+    "_id": "ObjectId",
+    "uid": "String",
+    "email": "String",
+    "phone": "String",
+    "username": "String",
+    "salt": "String",
+    "password": "String",
+    "wid": {
+      "type": "mongoose.Schema.ObjectId",
+      "ref": "D_WX_ACCOUNT"
+    },
+    "prid": {
+      "type": "mongoose.Schema.ObjectId",
+      "ref": "D_PROFILE"
+    },
+    "update_id": "String",
+    "update_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_id": "String",
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "deleted": {
+      "type": "Number",
+      "default": 0
+    }
+  },
+  "D_USER_LOG": {
+    "_id": "ObjectId",
+    "uid": "String",
+    "header": "String",
+    "username": "String",
+    "remoteAddress": "String",
+    "os_type": "String",
+    "os_description": "String",
+    "client_version": "String",
+    "update_id": "String",
+    "update_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_id": "String",
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "deleted": {
+      "type": "Number",
+      "default": 0
+    }
+  },
+  "D_WX_ACCOUNT": {
+    "_id": "ObjectId",
+    "uid": "String",
+    "nick_name": "String",
+    "unionid": "String",
+    "openid": "String",
+    "head_img_url": "String",
+    "language": "String",
+    "city": "String",
+    "sex": "String",
+    "country": "String",
+    "update_id": "String",
+    "update_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_id": "String",
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "deleted": {
+      "type": "Number",
+      "default": 0
+    }
+  },
+  "D_PROFILE": {
+    "_id": "ObjectId",
+    "uid": "String",
+    "phone": "String",
+    "email": "String",
+    "nick_name": "String",
+    "username": "String",
+    "head_img_url": "String",
+    "head_img_from": {
+      "type": "Number",
+      "default": 0
+    },
+    "city": "String",
+    "country": "String",
+    "language": "String",
+    "update_id": "String",
+    "update_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_id": "String",
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "deleted": {
+      "type": "Number",
+      "default": 0
+    }
+  },
+  "D_GROUP": {
+    "_id": "ObjectId",
+    "uid": "String",
+    "group_name": {
+      "type": "String",
+      "index": true
+    },
+    "projects": [
+      {
+        "type": "mongoose.Schema.ObjectId",
+        "ref": "D_PROJECT"
+      }
+    ],
+    "group_create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "update_id": "String",
+    "update_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_id": "String",
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "deleted": {
+      "type": "Number",
+      "default": 0
+    }
+  },
+  "D_PROJECT": {
+    "_id": "ObjectId",
+    "uid": "String",
+    "prid": {
+      "type": "mongoose.Schema.ObjectId",
+      "ref": "D_PROFILE"
+    },
+    "name": "String",
+    "description": "String",
+    "project_create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "members:": [
+      {
+        "type": "mongoose.Schema.ObjectId",
+        "ref": "D_MEMBER"
+      }
+    ],
+    "update_id": "String",
+    "update_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_id": "String",
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "deleted": {
+      "type": "Number",
+      "default": 0
+    }
+  },
+  "D_MEMBER": {
+    "_id": "ObjectId",
+    "uid": "String",
+    "wid": {
+      "type": "mongoose.Schema.ObjectId",
+      "ref": "D_WX_ACCOUNT"
+    },
+    "prid": {
+      "type": "mongoose.Schema.ObjectId",
+      "ref": "D_PROFILE"
+    },
+    "pid": {
+      "type": "mongoose.Schema.ObjectId",
+      "ref": "D_PROJECT"
+    },
+    "member_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "member_type": {
+      "type": "Number",
+      "default": 0
+    },
+    "update_id": "String",
+    "update_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_id": "String",
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "deleted": {
+      "type": "Number",
+      "default": 0
+    }
+  },
+  "D_MEDIA": {
+    "_id": "ObjectId",
+    "type": "String",
+    "url": "String",
+    "from": "String",
+    "update_id": "String",
+    "update_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_id": "String",
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "deleted": {
+      "type": "Number",
+      "default": 0
+    }
+  },
+  "D_COMMENT": {
+    "_id": "ObjectId",
+    "uid": "String",
+    "prid": {
+      "type": "mongoose.Schema.ObjectId",
+      "ref": "D_PROFILE"
+    },
+    "pid": {
+      "type": "mongoose.Schema.ObjectId",
+      "ref": "D_PROJECT"
+    },
+    "comment_date": "",
+    "type": {
+      "type": "Number",
+      "default": 0
+    },
+    "medias": [
+      {
+        "type": "mongoose.Schema.ObjectId",
+        "ref": "D_MEDIA"
+      }
+    ],
+    "text": {
+      "type": "String"
+    },
+    "vote_title": "String",
+    "votes": [
+      {
+        "type": "String"
+      }
+    ],
+    "comments": [
+      {
+        "type": "mongoose.Schema.ObjectId",
+        "ref": "D_COMMENTS"
+      }
+    ],
+    "update_id": "String",
+    "update_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "create_id": "String",
+    "create_date": {
+      "type": "Date",
+      "default": "Date.now"
+    },
+    "deleted": {
+      "type": "Number",
+      "default": 0
+    }
+  }
+}
